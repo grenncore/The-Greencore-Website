@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.footercontainer{
+    width: 100%;
+    position: fixed;
+    background-color: #003d2b;  
+}
+.footercontainer h3{
+    color: #fff;
+    text-align: center;
+}
+.footcontent{
+    padding-left: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.footersub{
+    padding: 10px;
+    width: 20%;
+    height: 30vh;
+    color: white;
+    line-height: 2;
+}
+.footersub ul{
+    font-style: italic;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+input{
+    height: 30px;
+}
+input, textarea{
+    background-color: #e2ecbc;
+    color: #003d2b;
+}
+.feedbutton{
+    background-color: #d3817a;
+    color: #fff;
+    border: none;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+}
