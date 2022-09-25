@@ -8,7 +8,6 @@ body{
 }
 .footercontainer{
     width: 100%;
-    position: fixed;
     background-color: #003d2b;  
 }
 .footercontainer h3{
