@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+.homePage .landing {
+  width: 100vw;
+  min-height: 900px;
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.homePage .landing .myNav .myLogo #myLogo {
+  height: 20px;
+  margin: 3.5rem 0 0 5.5rem;
+}
+.homePage .landing .container {
+  width: 80%;
+  margin: 0 auto;
+  color: #ECFFFD;
+  display: flex;
+}
+.homePage .landing .container .leftDiv {
+  height: 100%;
+}
+.homePage .landing .container .leftDiv h1 {
+  font-size: 119.21px;
+  font-family: "Poppins", sans-serif;
+  margin: 6rem 0 0 0;
+}
+.homePage .landing .container .leftDiv .textDiv {
+  margin-top: 40px;
+  width: 60%;
+  border-left: 4px solid #93BA08;
+  padding: 2rem;
+}
+.homePage .landing .container .leftDiv .textDiv p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.homePage .landing .container .rightDiv {
+  height: 100%;
+  display: flex;
+}
+.homePage .landing .container .rightDiv img {
+  height: 369px;
+  margin-left: -2rem;
+  margin-top: 20rem;
+  display: block;
+}
+.homePage .landing .container .rightDiv .socials {
+  display: flex;
+  flex-direction: column;
+  margin: 37rem 0 0 4rem;
+}
+.homePage .landing .container .rightDiv .socials .icons {
+  display: block;
+  margin: 0.5rem;
+  transition: 0.5s;
+}
+.homePage .landing .container .rightDiv .socials .icons:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.homePage .intro {
+  background: rgba(147, 186, 8, 0.27);
+}
+.homePage .intro .innerSection {
+  color: #16211E;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+.homePage .intro .innerSection p {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+}
+.homePage .intro .innerSection p span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 1.5rem;
+}
+.homePage .intro .innerSection img {
+  height: 250px;
+  margin-left: 28rem;
+  margin-top: -4rem;
+}
+.homePage .innovations {
+  width: 100vw;
+  background: rgba(226, 236, 188, 0.11);
+  padding-top: 9rem;
+}
+.homePage .innovations .innerSection2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.homePage .innovations .innerSection2 .left img {
+  width: 380px;
+  height: 590px;
+}
+.homePage .innovations .innerSection2 .right {
+  margin-left: 6.5rem;
+}
+.homePage .innovations .innerSection2 .right P {
+  padding: 1rem 5rem 0 0;
+  margin-bottom: 6.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #16211E;
+}
+.homePage .innovations .innerSection2 .right P span {
+  font-size: 35px;
+  color: #003D2B;
+  font-weight: 500;
+  margin-right: 0.6rem;
+}
+.homePage .innovations .innerSection2 .right img {
+  height: 550px;
+  width: 430px;
+}
+.homePage .projectsSection {
+  margin-top: -7.5rem;
+  width: 100vw;
+  min-height: 1650px;
+  background: url(../images/bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 15rem;
+}
+.homePage .projectsSection .innerSection3 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  color: #ECFFFD;
+}
+.homePage .projectsSection .innerSection3 .box {
+  margin-top: 16rem;
+}
+.homePage .projectsSection .innerSection3 .box img {
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+.homePage .projectsSection .innerSection3 .box a {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #ECFFFD;
+  text-decoration: none;
+  padding: 0.5rem 1rem 0.5rem 0;
+  transition: 0.5s;
+  display: inline-block;
+  font-weight: 500;
+}
+.homePage .projectsSection .innerSection3 .box a .icon {
+  margin-bottom: -0.1rem;
+}
+.homePage .projectsSection .innerSection3 .box a:hover {
+  transform: scale(0.94);
+}
+.homePage .projectsSection .innerSection3 .left #box1 {
+  padding-top: 8rem;
+  margin-left: 10rem;
+}
+.homePage .projectsSection .innerSection3 .left p {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 500;
+}
+.homePage .projectsSection .innerSection3 .left #toProjects {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: #16211E;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background: #ECFFFD;
+  transition: 0.5s;
+  margin-top: 25rem;
+  margin-left: 10rem;
+}
+.homePage .projectsSection .innerSection3 .left #toProjects .icon {
+  margin-bottom: -0.1rem;
+}
+.homePage .projectsSection .innerSection3 .left #toProjects:hover {
+  transform: scale(0.94);
+}
+.homePage .projectsSection .innerSection3 .right {
+  margin-left: 10rem;
+}
+.homePage .projectsSection .innerSection3 .right #box3 {
+  padding-top: 8rem;
+}
+.homePage .categories {
+  padding-top: 10rem;
+  background: #FCFDF8;
+  padding-bottom: 8rem;
+}
+.homePage .categories .innerSection {
+  width: 75%;
+  margin: 0 auto;
+}
+.homePage .categories .innerSection h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #D3817A;
+}
+.homePage .categories .innerSection h3 span {
+  color: #003D2B;
+}
+.homePage .categories .innerSection #lowerH3 {
+  margin-left: 7.6rem;
+}
+.homePage .categories .innerSection #toTeams {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: #ECFFFD;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background: #D3817A;
+  transition: 0.5s;
+  left: 42.5%;
+  margin-top: 5rem;
+}
+.homePage .categories .innerSection #toTeams .icon {
+  margin-bottom: -0.1rem;
+}
+.homePage .categories .innerSection #toTeams:hover {
+  transform: scale(1.1);
+}
+.homePage .categories .innerSection .container {
+  margin-top: 4rem;
+  display: flex;
+}
+.homePage .categories .innerSection .container .left img {
+  height: 500px;
+}
+.homePage .categories .innerSection .container .right {
+  border-left: 4px solid #D3817A;
+  margin-left: 5rem;
+  padding: 1.7rem;
+}
+.homePage .categories .innerSection .container .right p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #003D2B;
+  line-height: 3.5rem;
+}
+.homePage .partners {
+  background: #E2ECBC;
+  padding-top: 8rem;
+  min-height: 600px;
+}
+.homePage .partners .innerSection {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+}
+.homePage .partners .innerSection .left {
+  position: relative;
+}
+.homePage .partners .innerSection .left h3 {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color: #003D2B;
+  line-height: 4.4rem;
+  z-index: 1;
+}
+.homePage .partners .innerSection .left img {
+  position: absolute;
+  height: 360px;
+  transform: rotate(-29.01deg);
+  top: 0.8rem;
+  left: -1.2rem;
+}
+.homePage .partners .innerSection .right {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10rem;
+  padding-top: 2rem;
+}
+.homePage .partners .innerSection .right .partnersLogo {
+  display: block;
+  margin: 2rem;
+}
+.homePage .partners .innerSection .right #coelib {
+  position: relative;
+  top: 1.5rem;
+  height: 63px;
+}
+.homePage .partners .innerSection .right #egerton {
+  height: 115px;
+  padding-left: 4rem;
+}
+.homePage .partners .innerSection .right #eutec {
+  height: 115px;
+}
+.homePage .partners .innerSection .right #mastrich {
+  position: relative;
+  top: 2rem;
+  height: 60px;
+  padding-left: 3rem;
+}
+
+.myMenu [type=checkbox]:checked,
+.myMenu [type=checkbox]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+.myMenu .menu-icon:checked + label,
+.myMenu .menu-icon:not(:checked) + label {
+  position: fixed;
+  top: 63px;
+  right: 75px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+.myMenu .menu-icon:checked + label:before,
+.myMenu .menu-icon:not(:checked) + label:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 20px;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  border-top: 2px solid #ECFFFD;
+  border-bottom: 2px solid #ECFFFD;
+  transition: border-width 100ms 1500ms ease, top 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1), height 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1), background-color 200ms ease, transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.myMenu .menu-icon:checked + label:after,
+.myMenu .menu-icon:not(:checked) + label:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 22px;
+  height: 2px;
+  z-index: 20;
+  top: 10px;
+  right: 4px;
+  background-color: #ECFFFD;
+  margin-top: -1px;
+  transition: width 100ms 1750ms ease, right 100ms 1750ms ease, margin-top 100ms ease, transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.myMenu .menu-icon:checked + label:before {
+  top: 10px;
+  transform: rotate(45deg);
+  height: 2px;
+  background-color: #ECFFFD;
+  border-width: 0;
+  transition: border-width 100ms 340ms ease, top 100ms 300ms cubic-bezier(0.23, 1, 0.32, 1), height 100ms 300ms cubic-bezier(0.23, 1, 0.32, 1), background-color 200ms 500ms ease, transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.myMenu .menu-icon:checked + label:after {
+  width: 30px;
+  margin-top: 0;
+  right: 0;
+  transform: rotate(-45deg);
+  transition: width 100ms ease, right 100ms ease, margin-top 100ms 500ms ease, transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.myMenu .nav {
+  position: fixed;
+  top: 33px;
+  right: 50px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  z-index: 9;
+  overflow: hidden;
+  box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.3);
+  background-color: #16211E;
+  animation: border-transform 7s linear infinite;
+  transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1), right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1), transform 250ms 1100ms ease, width 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1), height 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+@keyframes border-transform {
+  0%, 100% {
+    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+  }
+}
+.myMenu .menu-icon:checked ~ .nav {
+  animation-play-state: paused;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 200%;
+  height: 200%;
+  transition: top 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1), right 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1), transform 250ms 700ms ease, width 750ms 1000ms cubic-bezier(0.23, 1, 0.32, 1), height 750ms 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.myMenu .nav ul {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  text-align: center;
+  transform: translateY(-50%);
+  list-style: none;
+}
+.myMenu .nav ul li {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 10px 0;
+  text-align: center;
+  list-style: none;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(30px);
+  transition: all 250ms linear;
+}
+.myMenu .nav ul li:nth-child(1) {
+  transition-delay: 300ms;
+}
+.myMenu .nav ul li:nth-child(2) {
+  transition-delay: 250ms;
+}
+.myMenu .nav ul li:nth-child(3) {
+  transition-delay: 200ms;
+}
+.myMenu .nav ul li:nth-child(4) {
+  transition-delay: 150ms;
+}
+.myMenu .nav ul li:nth-child(5) {
+  transition-delay: 100ms;
+}
+.myMenu .nav ul li:nth-child(6) {
+  transition-delay: 50ms;
+}
+.myMenu .nav ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 9vh;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 800;
+  display: inline-block;
+  position: relative;
+  color: #ECFFFD;
+  transition: all 250ms linear;
+}
+.myMenu .nav ul li a:hover {
+  text-decoration: none;
+  color: #D3817A;
+}
+.myMenu .nav ul li a:after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  content: "";
+  height: 2vh;
+  margin-top: -1vh;
+  width: 0;
+  left: 0;
+  background-color: #16211E;
+  opacity: 0.8;
+  transition: width 250ms linear;
+}
+.myMenu .nav ul li a:hover:after {
+  width: 100%;
+}
+.myMenu .menu-icon:checked ~ .nav ul li {
+  pointer-events: auto;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 350ms ease, transform 250ms ease;
+}
+.myMenu .menu-icon:checked ~ .nav ul li:nth-child(1) {
+  transition-delay: 1400ms;
+}
+.myMenu .menu-icon:checked ~ .nav ul li:nth-child(2) {
+  transition-delay: 1480ms;
+}
+.myMenu .menu-icon:checked ~ .nav ul li:nth-child(3) {
+  transition-delay: 1560ms;
+}
+.myMenu .menu-icon:checked ~ .nav ul li:nth-child(4) {
+  transition-delay: 1640ms;
+}
+.myMenu .menu-icon:checked ~ .nav ul li:nth-child(5) {
+  transition-delay: 1720ms;
+}
+.myMenu .menu-icon:checked ~ .nav ul li:nth-child(6) {
+  transition-delay: 1800ms;
+}
+.myMenu .logo {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  display: block;
+  z-index: 11;
+  transition: all 250ms linear;
+}
+.myMenu .logo img {
+  height: 26px;
+  width: auto;
+  display: block;
+}
+@media screen and (max-width: 991px) {
+  .myMenu .menu-icon:checked + label,
+.myMenu .menu-icon:not(:checked) + label {
+    right: 55px;
+  }
+  .myMenu .logo {
+    left: 30px;
+  }
+  .myMenu .nav {
+    right: 30px;
+  }
+  .myMenu .nav ul li a {
+    font-size: 8vh;
+  }
+}/*# sourceMappingURL=styles.css.map */
