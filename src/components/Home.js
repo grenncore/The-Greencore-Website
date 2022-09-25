@@ -14,7 +14,7 @@ import logo from './assets/images/logo.png'
 import image1 from './assets/images/img1.jpg'
 import image2 from './assets/images/img2.jpg'
 import image3 from './assets/images/img3.jpg'
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram }from 'react-icons/fa';
 import { FiTwitter } from 'react-icons/fi';
 import { FiLinkedin } from 'react-icons/fi';
 import { FiArrowRight } from 'react-icons/fi';
