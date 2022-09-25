@@ -15,5 +15,6 @@
 1. I have implemented some shallow JSX representation structure of how the footer will look like.
 1. This shall later be restructured to allow react routing to the given pages in the event of links, and send message to the backend in the event of feedback.
 2. Feel free to add any visual improvements or code modifications to this boiler plate code
+* ps: I am not sure about the approach, (I know mobile first approach is the best approach, but here, I use the desktop first approach, and someone may come in to do a conversion or implement media queries.)
 
 -This is the footer phase of the project...

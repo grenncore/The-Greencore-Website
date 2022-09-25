@@ -1,4 +1,9 @@
 import React from 'react'
+import facebook from './assets/icons/icons8-facebook-96.png'
+import twitter from './assets/icons/icons8-twitter-96.png'
+import instagram from './assets/icons/icons8-instagram-96.png'
+import whatsapp from './assets/icons/icons8-whatsapp-96.png'
+import gmail from './assets/icons/icons8-envelope-96.png'
 
 function Footer() {
   return (
@@ -40,7 +45,17 @@ function Footer() {
 
                 </div>
             </div>
-            <h3>Copywrite© 2022 Greencore</h3>
+            <div className='socials'>
+                <p>Reach out to us and follow us on our socials to stay updated</p>
+                <ul>
+                    <li><a href='#'><img width={40} src={facebook} alt='Facebook'/></a></li>
+                    <li><a href='#'><img width={40} src={twitter} alt='Twitter'/></a></li>
+                    <li><a href='#'><img width={40} src={instagram} alt='Instagram'/></a></li>
+                    <li><a href='#'><img width={40} src={whatsapp} alt='WhatsApp'/></a></li>
+                    <li><a href='#'><img width={40} src={gmail} alt='Gmail'/></a></li>
+                </ul>
+            </div>
+            <h3 className='copyrighttext'>Copywrite© 2022 Greencore</h3>
         </div>
         
     </>
