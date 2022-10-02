@@ -104,12 +104,10 @@ const Home = () => {
             <div className="innerSection">
                 <h3>OUR <span>DIVERSE</span></h3>
                 <h3 id='lowerH3'><span>TEAM</span> CATEGORIES</h3>
-
                     <div className="container">
                         <div className="left">
                             <img src={engineers} alt="" />
                         </div>
-
                         <div className="right">
                             <p>01. Electrical &amp; Control</p>
                             <p>02. Civil &amp; Environment</p>

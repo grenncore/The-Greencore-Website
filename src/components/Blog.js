@@ -1,20 +1,22 @@
-import React from 'react'
-
+import React from 'react';
 const Blog = () =>{
   return (
-    <div className='blog-section'>
-      <div className='title'>
-        <h1>Our<br/><span>Green</span>{""}Blogs
+    <div className ='blog'>
+      <div className='blog-section'>
+       <div className ='title'>
+        <h1 >Our <br/> 
+        <span> Green </span>{""}Blogs
+        
         </h1>
-      </div>
-      <div className='blogContent'>
+       </div>
+       <div className='blogContent'>
         <div className='first-blog'>
-            <div>
+            <div className='firstBlog1'>
                 <h2>Why we should produce more off-grid power</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium et repellat? Dolorum nobis repellendus adipisci. Natus reiciendis porro nihil!</p>
-                <button>READ MORE</button>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Adipisci praesentium et repellat? Dolorum nobis repellendus adipisci. <br/>Natus reiciendis porro nihil!</p>
+                <button className='readMore'>READ MORE</button>
             </div>
-            <div>
+            <div className='firstBlog2'>
                 <div>
                     <h2>Industry Academia Platform Project</h2>
                 </div>
@@ -23,7 +25,8 @@ const Blog = () =>{
                 </div>
             </div>
         </div>
-        <div className='second-blog'>
+       </div>
+       <div className='second-blog'>
             <div>
                 <h3>Microsoft Learn Student Ambassador</h3>
             </div>
