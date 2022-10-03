@@ -4,7 +4,7 @@ const Menu = () => {
   return (
     <section className='myMenu'>
           	<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
-  	<label for="menu-icon"></label>
+  	<label HTMLfor="menu-icon"></label>
   	<nav class="nav"> 		
   		<ul class="pt-5">
   			<li><a href="./">Home</a></li>

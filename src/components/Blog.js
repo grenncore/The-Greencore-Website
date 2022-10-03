@@ -28,7 +28,7 @@ const Blog = () =>{
        </div>
        <div className='second-blog'>
             <div>
-                <h3>Microsoft Learn Student Ambassador</h3>
+              <h3>Microsoft Learn Student Ambassador</h3>
             </div>
             <div>
              <h3>Can I use arduino commercially</h3>
@@ -36,7 +36,16 @@ const Blog = () =>{
             <div>
               <h3>Discover internet of things</h3>
             </div>
-
+        </div>
+      </div>
+      <div className='techBlog'>
+        <h2 className='tech-title'>Technology</h2>
+        <div className='tech-content'>
+          <h2>See More </h2>
+          <div className='artificial'>
+            <h2 className='artificial-title'>Artificial Intellligence and Machine Learning</h2>
+            <p className='artificial-p'>lorem, ipsum dolor sit amet consectetur adipisicing elit. <br/>Error consequatur ipsa, sed veritatis labore vel beatae numquam <br/>voluptatibus rerum inventore delectus maxime alias, illo et excepturi voluptatem! Vero, alias architecto.</p>
+          </div>
         </div>
       </div>
     </div>

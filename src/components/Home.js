@@ -109,6 +109,13 @@ const Home = () => {
                             <img src={engineers} alt="" />
                         </div>
                         <div className="right">
+                            {/* <ol start={01}>
+                                <li>Electric</li>
+                                <li>Electric</li>
+                                <li>Electric</li>
+                                <li>Electric</li>
+                                <li>Electric</li>
+                            </ol> */}
                             <p>01. Electrical &amp; Control</p>
                             <p>02. Civil &amp; Environment</p>
                             <p>03. Health &amp; Food Science</p>
