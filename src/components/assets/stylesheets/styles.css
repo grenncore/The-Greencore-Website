@@ -561,7 +561,7 @@ html, body {
 }
 /* styling blog section */
 
-.blog .blog-section{
+/* .blog .blog-section{
   left: 0;
   width: 100vw;
   min-height: 600px;
@@ -587,7 +587,6 @@ h1 span{
 .first-blog{
   display: flex;
   padding-top: 6rem;
-  /* padding-left: 4rem; */
   justify-content: center;
   margin-left: 8rem;
 }
@@ -620,15 +619,20 @@ h1 span{
   justify-content: space-between;
 
 }
+.second-blog > div{
+  display: flex;
+  flex-direction: column;
+}
 .blog .techBlog{
   left: 0;
   width: 100vw;
-  min-height: 200px;
+  min-height: 600px;
   
 }
-/* .techBlog{
-  margin-left: 8rem;
-} */
+.techBlog{
+  display: flex;
+  flex-direction: column;
+}
 .tech-title {
   font-size: 24px;
   color: #003D2B;
@@ -656,4 +660,8 @@ h1 span{
   display: flex;
   
 }
+.blogContent .second-blog .techBlog img{
+  height: 300px;
+  width: 300px;
+} */
 /*# sourceMappingURL=styles.css.map */

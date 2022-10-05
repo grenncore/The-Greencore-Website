@@ -1,5 +1,5 @@
-import React from 'react'
-import Menu from './Menu'
+import React from 'react';
+import Menu from './Menu';
 import windmill from './assets/images/modern-wind-farm-line-a-rolling-hillside.jpg'
 import engineers from './assets/images/engs.jpg'
 import mastrich from './assets/images/mastr.png'
@@ -28,11 +28,8 @@ const Home = () => {
                 <div className="myLogo">
                     <img id='myLogo' src={logo} alt="logo" />
                 </div>
-
                 <Menu />
             </div>
-
-
             <div className="container">
                 <div className="leftDiv">
                     <h1>Greencore</h1>
@@ -40,7 +37,6 @@ const Home = () => {
                     <p>All about sustainable development and offering solutions to the local communities.</p>
                     </div>
                 </div>
-
                 <div className="rightDiv">
                     <img src={windmill} alt="windmill" />
                     <div className="socials">
@@ -51,7 +47,6 @@ const Home = () => {
                 </div>
             </div>
         </section>
-
         <section className='intro'>
             <div className="innerSection">
                 <p><span id='smallText'>WHO WE ARE</span> A CONSORTIUM EMPOWERING YOUTHS TO FOSTER COLLABORATIVE THINKING AND FURTHER DRIVE LOCAL INNOVATIONS.</p>
@@ -109,13 +104,7 @@ const Home = () => {
                             <img src={engineers} alt="" />
                         </div>
                         <div className="right">
-                            {/* <ol start={01}>
-                                <li>Electric</li>
-                                <li>Electric</li>
-                                <li>Electric</li>
-                                <li>Electric</li>
-                                <li>Electric</li>
-                            </ol> */}
+                           
                             <p>01. Electrical &amp; Control</p>
                             <p>02. Civil &amp; Environment</p>
                             <p>03. Health &amp; Food Science</p>
