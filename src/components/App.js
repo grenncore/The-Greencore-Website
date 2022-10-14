@@ -1,16 +1,17 @@
-import React from 'react'
-import Footer from './Footer'
+import React from "react";
+import Footer from "./Footer";
 import Home from "./Home";
 import Blog from "./Blog";
-
+import Teams from "./Teams";
 
 function App() {
   return (
     <div>
-      <Home />
+      {/* <Home />
       <Blog/>
-      <Footer/>
+      <Footer/> */}
+      <Teams />
     </div>
-  )
+  );
 }
 export default App;
