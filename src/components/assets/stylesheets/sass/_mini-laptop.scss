@@ -1,0 +1,436 @@
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1200px) {
+    .homePage{
+        .landing{
+            width: 100vw;
+            min-height: 820px;
+    
+            .myNav{
+    
+                .myLogo{
+                   
+    
+                    #myLogo{
+                        height: 15px;
+                        margin: 3.5rem 0 0 3.5rem;
+                    }
+                }
+            }
+    
+            
+            .container{
+                width: 85vw;
+                display: flex;
+    
+                .leftDiv{
+                    height: 100%;
+        
+                    h1{
+                        font-size: 7.5rem;
+                    }
+                    .textDiv{
+                        margin-top: 20px;
+                        width: 80%;
+                        border-left: 3px solid #93BA08;
+                        padding: 1rem;
+                    }
+                }
+                .rightDiv{
+                    margin-top: 2.5rem;
+        
+                    img{
+                        height: 300px;
+                        margin-left: -1rem;
+                        margin-top: 20rem;
+                    }
+        
+                    .socials{
+                        margin: 33rem 0 0 1rem;
+                    }
+                }
+            }
+        }
+    
+        .intro{
+            
+            .innerSection{
+                width: 80vw;
+                padding-top: 5rem;
+    
+                p{
+                    font-size: 25px;
+    
+                    span{
+                        font-size: 14px;
+                    }
+                }
+    
+                img{
+                    height: 130px;
+                    margin-top: -2rem;
+                    margin-left: 38rem;
+                }
+            }
+        }
+    
+        .innovations{
+            padding-top: 6rem;
+    
+            .innerSection2{
+                width: 80vw;
+    
+                .left{
+                    img{
+                        width: 290px;
+                        height: 440px;
+                    }
+                }
+                .right{
+                    margin-left: 7rem;
+    
+                    P{
+                        padding: 1rem 2.9rem 0 0;
+                        margin-bottom: 3.5rem;
+                        font-size: 18px;
+    
+                        span{
+                            font-size: 25px;
+                            margin-right: .3rem;
+                        }
+                    }
+    
+                    img{
+                        height: 450px;
+                        width: 330px;
+                    }
+                }
+            }
+        }
+    
+        .projectsSection{
+            margin-top: -6rem;
+            min-height: 1350px;
+            padding-top: 10rem;
+    
+            .innerSection3{
+                width: 90vw;
+    
+                .box{
+                    margin-top: 12.9rem;
+                    img{
+                        height: 180px;
+                        width: 280px;
+                    }
+                    a{
+                        font-size: 18px;
+                    }
+                }
+    
+                .left{
+                    margin-left: 2rem;
+    
+    
+                    #box1{
+                        padding-top: 8rem;
+                        margin-left: 4rem;
+                    }
+    
+                    p{
+                        font-size: 55px;
+                        line-height: 60px;
+                        
+                    }
+    
+                    #toProjects{
+                        margin-top: 20rem;
+                        margin-left: 4rem;
+                    }
+                }
+    
+                .right{
+                    margin-left: 7rem;
+    
+                    #box3{
+                        padding-top: 8rem;
+                    }
+                }
+    
+    
+            }
+    
+    
+        }
+    
+        .categories{
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+    
+            .innerSection{
+                width: 70vw;
+    
+                h3{
+                    font-size: 38px;
+                }
+    
+                #lowerH3{
+                    margin-left: 6rem;
+                }
+    
+    
+                #toTeams{
+                    left: 20vw;
+                    margin-top: 5rem;
+        
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+    
+                .container{
+                    margin-top: 2rem;
+                    display: flex;
+                    
+                    .left{
+                        img{
+                            height: 300px;
+                        }
+                    }
+    
+                    .right{
+                        border-left: 3px solid $secondary;
+                        margin-left: 3rem;
+                        padding: 1.4rem;
+    
+                        p{
+                            font-size: 20px;
+                            line-height: 2rem;
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    
+        .partners{
+            padding-top: 4rem;
+            min-height: 500px;
+    
+            .innerSection{
+                width: 90vw;
+    
+                .left{
+                    position: relative;
+    
+                    h3{
+                        font-size: 40px;
+                        line-height: 2.2rem;
+                    }
+    
+                    img{
+                        height: 180px;
+                        top: .6rem;
+                        left: .5rem;
+                    }
+                }
+    
+                .right{
+                    width: 60%;
+                    margin-left: 9rem;
+                    padding-top: 2rem;
+    
+                    #coelib{
+                        height: 43px;
+                    }
+                    #egerton{
+                        height: 100px;
+                    }
+                    #eutec{
+                        height: 100px;
+                    }
+                    #mastrich{
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .about{
+    
+        .subSection{
+
+            .right{
+    
+                img{
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+    .projects{
+        .landingProjects{
+            min-height: 1300px;
+            .myNav{
+    
+                .myLogo{
+                    
+    
+                    #myLogo{
+                        height: 20px;
+                        margin: 3.5rem 0 0 3.5rem;
+                    }
+                }
+            }
+    
+            .container{
+                width: 80vw;
+    
+                h1{
+                    font-size: 4rem;
+                    line-height: 4.5rem;
+                }
+    
+                img{
+                    height: 200px;
+                    left: 24rem;
+                    top: -2rem;
+                }
+            }
+    
+            .project1{
+                width: 80vw;
+                gap: 2.5rem;
+                margin-top: 8rem;
+    
+                .left{
+                    img{
+                        height: 230px;
+                    }
+                }
+                .right{
+                    h5{
+                        font-size: 1.6rem;
+                        margin-bottom: .6rem;
+                    }
+                    p{
+                        font-size: 1.1rem;
+                        line-height: 1.5rem;
+                        padding-right: 0rem;
+                    }
+                }
+            }
+    
+        }
+    
+        .project2{
+            width: 80vw;
+            gap: 2.5rem;
+            margin-top: 3.6rem;
+    
+            .left{
+                h5{
+                    font-size: 1.6rem;
+                    margin-bottom: .6rem;
+                }
+                p{
+                    font-size: 1.1rem;
+                    line-height: 1.5rem;
+                    padding-right: 0rem;
+                }
+            }
+    
+            .right{
+                margin-top: -12.8rem;
+    
+                img{
+                    width: 320px;
+                }
+            }
+    
+        }
+    
+        .project3{
+            width: 80vw;
+            gap: 2.5rem;
+            margin-top: 8rem;
+    
+            .left{
+                img{
+                    height: 260px;
+                }
+            }
+            .right{
+                h5{
+                    font-size: 1.6rem;
+                    margin-bottom: .6rem;
+                }
+                p{
+                    font-size: 1.1rem;
+                    line-height: 1.5rem;
+                    padding-right: 0rem;
+                }
+            }
+        }
+    
+        .project4{
+            width: 80vw;
+            gap: 2rem;
+            margin-top: 10rem;
+            margin-bottom: 8rem;
+    
+            .left{
+                h5{
+                    font-size: 1.6rem;
+                    margin-bottom: .6rem;
+                }
+                p{
+                    font-size: 1.1rem;
+                    line-height: 1.5rem;
+                    padding-right: 0rem;
+                }
+            }
+    
+            .right{
+                padding-top: .4rem;
+                
+                img{
+                    width: 380px;
+                }
+            }
+    
+        }
+    
+        .moreIdeas{
+            min-height: 600px;
+            padding-top: 7rem;
+    
+            .container{
+                width: 90vw;
+    
+                .left{
+                    h2{
+                        font-size: 3.7rem;
+                        line-height: 3.2rem;
+                        margin-bottom: 1.2rem;
+                    }
+                    p{
+                        font-size: 2rem;
+                        margin-bottom: .8rem;
+                    }
+                }
+        
+                .right{
+                    img{
+                        width: 320px;
+                    }
+                }
+            }
+        }
+    
+    }
+
+
+  }

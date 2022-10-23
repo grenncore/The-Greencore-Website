@@ -1,0 +1,607 @@
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+    .homePage{
+        .landing{
+            width: 100vw;
+            min-height: 800px;
+    
+            .myNav{
+    
+                .myLogo{
+                   
+    
+                    #myLogo{
+                        height: 15px;
+                        margin: 3.5rem 0 0 3rem;
+                    }
+                }
+            }
+    
+            
+            .container{
+                width: 85vw;
+                display: flex;
+    
+                .leftDiv{
+                    height: 100%;
+        
+                    h1{
+                        font-size: 5rem;
+                    }
+                    .textDiv{
+                        margin-top: 20px;
+                        width: 80%;
+                        border-left: 3px solid #93BA08;
+                        padding: 1rem;
+                    }
+                }
+                .rightDiv{
+                    margin-top: 2.5rem;
+        
+                    img{
+                        height: 300px;
+                        margin-left: -1rem;
+                        margin-top: 20rem;
+                    }
+        
+                    .socials{
+                        margin: 33rem 0 0 1rem;
+                    }
+                }
+            }
+        }
+    
+        .intro{
+            
+            .innerSection{
+                width: 80vw;
+                padding-top: 5rem;
+    
+                p{
+                    font-size: 25px;
+    
+                    span{
+                        font-size: 14px;
+                    }
+                }
+    
+                img{
+                    height: 130px;
+                    margin-top: -2rem;
+                }
+            }
+        }
+    
+        .innovations{
+            padding-top: 6rem;
+    
+            .innerSection2{
+                width: 90vw;
+    
+                .left{
+                    img{
+                        width: 290px;
+                        height: 440px;
+                    }
+                }
+                .right{
+                    margin-left: 4rem;
+    
+                    P{
+                        padding: 1rem 0rem 0 0;
+                        margin-bottom: 3.5rem;
+                        font-size: 18px;
+    
+                        span{
+                            font-size: 25px;
+                            margin-right: .3rem;
+                        }
+                    }
+    
+                    img{
+                        height: 450px;
+                        width: 330px;
+                    }
+                }
+            }
+        }
+    
+        .projectsSection{
+            margin-top: -6rem;
+            min-height: 1280px;
+            padding-top: 10rem;
+    
+            .innerSection3{
+                width: 90vw;
+    
+                .box{
+                    margin-top: 12.9rem;
+                    img{
+                        height: 150px;
+                        width: 250px;
+                    }
+                    a{
+                        font-size: 16px;
+                    }
+                }
+    
+                .left{
+                    margin-left: 0rem;
+    
+    
+                    #box1{
+                        padding-top: 8rem;
+                        margin-left: 4rem;
+                    }
+    
+                    p{
+                        font-size: 40px;
+                        line-height: 45px;
+                        
+                    }
+    
+                    #toProjects{
+                        margin-top: 20rem;
+                        margin-left: 4rem;
+                    }
+                }
+    
+                .right{
+                    margin-left: 7rem;
+    
+                    #box3{
+                        padding-top: 8rem;
+                    }
+                }
+    
+    
+            }
+    
+    
+        }
+    
+        .categories{
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+    
+            .innerSection{
+                width: 90vw;
+    
+                h3{
+                    font-size: 30px;
+                }
+    
+                #lowerH3{
+                    margin-left: 4.6rem;
+                }
+    
+    
+                #toTeams{
+                    left: 30vw;
+                    margin-top: 5rem;
+        
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+    
+                .container{
+                    margin-top: 2rem;
+                    display: flex;
+                    
+                    .left{
+                        img{
+                            height: 300px;
+                        }
+                    }
+    
+                    .right{
+                        border-left: 3px solid $secondary;
+                        margin-left: 3rem;
+                        padding: 1.4rem;
+    
+                        p{
+                            font-size: 20px;
+                            line-height: 2rem;
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    
+        .partners{
+            padding-top: 4rem;
+            min-height: 500px;
+    
+            .innerSection{
+                width: 90vw;
+    
+                .left{
+                    position: relative;
+    
+                    h3{
+                        font-size: 31px;
+                        line-height: 2.2rem;
+                    }
+    
+                    img{
+                        height: 160px;
+                        top: .8rem;
+                        left: -.5rem;
+                    }
+                }
+    
+                .right{
+                    margin-left: 3rem;
+                    padding-top: 2rem;
+    
+                    #coelib{
+                        height: 43px;
+                    }
+                    #egerton{
+                        height: 100px;
+                    }
+                    #eutec{
+                        height: 100px;
+                    }
+                    #mastrich{
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        padding: 3rem 0 1rem 0;
+    
+        .footerContainer{
+            width: 95vw;
+            margin: 0 auto;
+    
+            .footContent{
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 4rem;
+                padding-left: 1rem;
+    
+                .footerSub{
+                    h4{
+                        font-size: .8rem;
+                        margin: 1.1rem 0 .3rem;
+                    }
+    
+                    ul{
+                        li{
+                            font-size: .7rem;
+                            line-height: 1.5rem;
+                        }
+                    }
+    
+                    input[type="text"]{
+                        font-size: .8rem;
+                        line-height: 1.5rem;
+                        width: 150px;
+                    }
+    
+                    textarea{
+                        font-size: .8rem;
+                        margin-bottom: 1.5rem;
+                        width: 150px;
+                    }
+    
+                    .feedButton{
+                        font-size: .8rem;
+                        padding: .6rem 1.2rem;
+                    }
+    
+                    .socials{
+    
+                        .icons{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+    
+            }
+    
+            
+            .copyrightText{
+                font-size: .7rem;
+                padding-top: 3rem;
+            }
+        }
+    }
+
+
+    .about{
+    
+        .landing{
+            min-height: 700px;
+    
+            .myNav{
+    
+                .myLogo{
+                   
+    
+                    #myLogo{
+                        margin: 3.5rem 0 0 3.5rem;
+                    }
+                }
+            }
+    
+            .textBox{
+                padding: 1rem;
+                width: 90vw;
+                margin-top: 7.5rem;
+    
+                .myTitle{
+                    font-size: 4rem;
+                }
+    
+                .txt{
+                    font-size: 1.25rem;
+                }
+            }
+    
+    
+        }
+    
+        .subSection{
+            padding: 2rem 0 0 1rem;
+            width: 90vw;
+    
+            .left{
+               
+                img{
+                    height: 320px;
+                }
+                p{
+                    font-size: 1.3rem;
+                    margin-top: 1.4rem;
+                }
+            }
+            .right{
+                display: none;
+            }
+        }
+    
+        .why{
+            margin-top: 5rem;
+    
+            .container1{
+                width: 90vw;
+    
+                .whyTxt{
+    
+                    h2{
+                        font-size: 3.3rem;
+                    }
+        
+                    ul{
+                        padding-left: 2rem;
+        
+                        li{
+                            font-size: 1.3rem;
+                            line-height: 2rem;
+                        }
+                    }
+                }
+        
+                .leafDiv{
+    
+                    #leaf{
+                        width: 300px;
+                    }
+                }
+            }
+    
+            .container2{
+                width: 90vw;
+    
+                h2{
+                    font-size: 3rem;
+                    line-height: 3.5rem;
+                    margin-bottom: 1.5rem;
+                }
+    
+                .innerContainer{
+                    gap: 3rem;
+    
+                    .left{
+                        img{
+                            width: 310px;
+                        }
+                    }
+                    .right{
+                        width: 400px;
+                       
+    
+                       .activity{
+                        
+                            p{
+                                font-size: 1.5rem;
+                            }
+                            
+                            .number{
+                                font-size: 3rem;
+                                margin-right: 1rem;
+                            }
+                       }
+                    }
+                }
+            }
+        }
+    }
+
+
+    
+    .projects{
+        .landingProjects{
+            min-height: 1200px;
+            .myNav{
+    
+                .myLogo{
+                    
+    
+                    #myLogo{
+                        height: 20px;
+                        margin: 3.5rem 0 0 2.5rem;
+                    }
+                }
+            }
+    
+            .container{
+                width: 90vw;
+    
+                h1{
+                    font-size: 3.3rem;
+                    line-height: 3.5rem;
+                }
+    
+                img{
+                    height: 150px;
+                    left: 23.4rem;
+                    top: 0rem;
+                }
+            }
+    
+            .project1{
+                width: 90vw;
+                margin: 0 auto;
+                gap: 1.5rem;
+                margin-top: 8rem;
+    
+                .left{
+                    img{
+                        height: 200px;
+                    }
+                }
+                .right{
+                    h5{
+                        font-size: 1.4rem;
+                        margin-bottom: .6rem;
+                    }
+                    p{
+                        font-size: 1rem;
+                        line-height: 1.5rem;
+                        padding-right: 0rem;
+                    }
+                }
+            }
+    
+        }
+    
+        .project2{
+            width: 90vw;
+            gap: 1.5rem;
+            margin-top: 2.5rem;
+    
+            .left{
+                h5{
+                    font-size: 1.4rem;
+                    margin-bottom: .6rem;
+                }
+                p{
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    padding-right: 0rem;
+                }
+            }
+    
+            .right{
+                margin-top: -10.8rem;
+    
+                img{
+                    width: 300px;
+                }
+            }
+    
+        }
+    
+        .project3{
+            width: 90vw;
+            gap: 1.5rem;
+            margin-top: 6rem;
+    
+            .left{
+                img{
+                    height: 220px;
+                }
+            }
+            .right{
+                h5{
+                    font-size: 1.4rem;
+                    margin-bottom: .6rem;
+                }
+                p{
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    padding-right: 0rem;
+                }
+            }
+        }
+    
+        .project4{
+            width: 90vw;
+            gap: 1.5rem;
+            margin-top: 8rem;
+            margin-bottom: 8rem;
+    
+            .left{
+                h5{
+                    font-size: 1.4rem;
+                    margin-bottom: .6rem;
+                }
+                p{
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    padding-right: 0rem;
+                }
+            }
+    
+            .right{
+                padding-top: .4rem;
+                
+                img{
+                    width: 350px;
+                }
+            }
+    
+        }
+    
+        .moreIdeas{
+            min-height: 550px;
+            padding-top: 6rem;
+    
+            .container{
+                width: 90vw;
+    
+                .left{
+                    h2{
+                        font-size: 3rem;
+                        line-height: 3.2rem;
+                        margin-bottom: 1.2rem;
+                    }
+                    p{
+                        font-size: 1.7rem;
+                        margin-bottom: .5rem;
+                    }
+                }
+        
+                .right{
+                    img{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    
+    }
+
+
+
+
+
+}

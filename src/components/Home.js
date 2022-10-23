@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Menu from './Menu';
+import Footer from './Footer';
 import windmill from './assets/images/modern-wind-farm-line-a-rolling-hillside.jpg'
 import engineers from './assets/images/engs.jpg'
 import mastrich from './assets/images/mastr.png'
@@ -10,7 +12,7 @@ import solar from './assets/images/solarr.jpg'
 import fruits from './assets/images/fruits.png'
 import crop from './assets/images/cropp.jpg'
 import soil from './assets/images/soil.png'
-import logo from './assets/images/logo.png'
+import logo from './assets/images/logo2.png'
 import image1 from './assets/images/img1.jpg'
 import image2 from './assets/images/img2.jpg'
 import image3 from './assets/images/img3.jpg'
@@ -21,6 +23,10 @@ import { FiArrowRight } from 'react-icons/fi';
 
 
 const Home = () => {
+
+
+
+
   return (
     <section className='homePage'>
         <section className="landing">
@@ -77,19 +83,19 @@ const Home = () => {
 
                     <div className="box" id='box1'>
                         <img src={image1} alt="" />
-                        <a href="./">Aquaponics System <FiArrowRight className='icon'/></a>
+                        <Link onClick={(e) => {e.preventDefault(); window.location.replace('/Projects/#aqua');}}>Aquaponics System <FiArrowRight className='icon'/></Link>
                     </div>
-                    <a href="./" id="toProjects">ALL PROJECTS <FiArrowRight className='icon'/></a>
+                    <Link to="/Projects" id="toProjects">ALL PROJECTS <FiArrowRight className='icon'/></Link>
                 </div>
                 <div className="right">
                 <div className="box" id='box2'>
                         <img src={image2} alt="" />
-                        <a href="./">Mini Hydro Electric Power <FiArrowRight className='icon'/></a>
+                        <Link to="/Projects">Mini Hydro Electric Power <FiArrowRight className='icon'/></Link>
                     </div>
 
                     <div className="box" id='box3'>
                         <img src={image3} alt="" />
-                        <a href="./">Free Energy Pump <FiArrowRight className='icon'/></a>
+                        <Link to="/Projects">Free Energy Pump <FiArrowRight className='icon'/></Link>
                     </div>
                 </div>
             </div>
@@ -98,7 +104,7 @@ const Home = () => {
         <section className="categories">
             <div className="innerSection">
                 <h3>OUR <span>DIVERSE</span></h3>
-                <h3 id='lowerH3'><span>TEAM</span> CATEGORIES</h3>
+                <h3 id='lowerH3'><span>TEAM</span> CATEGORIES.</h3>
                     <div className="container">
                         <div className="left">
                             <img src={engineers} alt="" />
@@ -116,14 +122,14 @@ const Home = () => {
                         </div>
                     </div>
 
-                <a href="./" id='toTeams'>OUR TEAMS <FiArrowRight className='icon'/></a>
+                <Link to="/" id='toTeams'>OUR TEAMS <FiArrowRight className='icon'/></Link>
             </div>
         </section>
 
         <section className='partners'>
             <div className="innerSection">
                 <div className="left">
-                    <h3>Our <br /> Partners</h3>
+                    <h3>Our <br /> Partners.</h3>
                     <img src={fruits} alt="" />
                 </div>
 
@@ -135,6 +141,8 @@ const Home = () => {
                 </div>
             </div>
         </section>
+
+        <Footer />
     </section>
   )
 }

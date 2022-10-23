@@ -1,18 +1,39 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
     <section className='myMenu'>
-          	<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
-  	<label HTMLfor="menu-icon"></label>
-  	<nav class="nav"> 		
-  		<ul class="pt-5">
-  			<li><a href="./">Home</a></li>
-  			<li><a href="./">About Us</a></li>
-  			<li><a href="./">Projects</a></li>
-  			<li><a href="./">Our Teams</a></li>
-			<li><a href="./">Our Blogs</a></li>	
-			<li><a href="./">Contact Us</a></li>
+          	<input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+  	<label htmlFor="menu-icon"></label>
+  	<nav className="nav"> 		
+  		<ul className="pt-5">
+
+
+		 	 <li>
+          		<Link to="/">Home</Link>
+        	</li>
+
+			<li>
+          		<Link to="/About">About</Link>
+        	</li>
+
+			<li>
+          		<Link to="/Projects">Projects</Link>
+        	</li>
+
+			<li>
+          		<Link to="/Teams">Our Teams</Link>
+        	</li>
+
+			<li>
+          		<Link to="/Blog">Our Blogs</Link>
+        	</li>
+
+			<li>
+          		<Link>Contact Us</Link>
+        	</li>
+
   		</ul>
   	</nav>
     </section>

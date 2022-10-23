@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,7 @@
 
 html, body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .homePage .landing {
@@ -31,7 +32,7 @@ html, body {
   height: 100%;
 }
 .homePage .landing .container .leftDiv h1 {
-  font-size: 119.21px;
+  font-size: 7.406rem;
   font-family: "Poppins", sans-serif;
   margin: 6rem 0 0 0;
 }
@@ -295,7 +296,7 @@ html, body {
 .homePage .partners .innerSection .right {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10rem;
+  margin-left: 8rem;
   padding-top: 2rem;
 }
 .homePage .partners .innerSection .right .partnersLogo {
@@ -477,9 +478,9 @@ html, body {
 }
 .myMenu .nav ul li a {
   font-family: "Montserrat", sans-serif;
-  font-size: 9vh;
+  font-size: 8vh;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: 800;
   display: inline-block;
   position: relative;
@@ -556,112 +557,1692 @@ html, body {
     right: 30px;
   }
   .myMenu .nav ul li a {
-    font-size: 8vh;
+    font-size: 5vh;
   }
 }
-/* styling blog section */
 
-/* .blog .blog-section{
-  left: 0;
+.about {
+  background: #FCFDF8;
+}
+.about .landing {
   width: 100vw;
-  min-height: 600px;
+  min-height: 750px;
+  background: url(../images/bggg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about .landing .myNav .myLogo #myLogo {
+  height: 20px;
+  margin: 3.5rem 0 0 5.5rem;
+}
+.about .landing .textBox {
+  padding: 2rem;
+  width: 80vw;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  margin-top: 7rem;
+}
+.about .landing .textBox .myTitle {
+  font-size: 4.768rem;
+  font-weight: 700;
+  color: #003D2B;
+}
+.about .landing .textBox .txt {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #16211E;
+}
+.about .subSection {
+  padding: 2rem 0 0 2rem;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -14rem;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.about .subSection .left img {
+  height: 320px;
+}
+.about .subSection .left p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #003D2B;
+  line-height: 1.6rem;
+  margin-top: 2.4rem;
+}
+.about .subSection .right img {
+  height: 500px;
+}
+.about .why {
+  margin-top: 10rem;
+  height: auto;
+  position: relative;
+  padding-bottom: 10rem;
+}
+.about .why .container1 {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+}
+.about .why .container1 .whyTxt {
+  position: relative;
+  z-index: 2;
+}
+.about .why .container1 .whyTxt h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3.815rem;
+  color: #003D2B;
+}
+.about .why .container1 .whyTxt ul {
+  padding-left: 2rem;
+}
+.about .why .container1 .whyTxt ul li {
+  color: #16211E;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+.about .why .container1 .leafDiv #leaf {
+  width: 450px;
+  position: absolute;
+  top: 2.5rem;
+  right: 0rem;
+}
+.about .why .container2 {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+.about .why .container2 h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #D3817A;
+  line-height: 4.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
+.about .why .container2 h2 span {
+  color: #A7C393;
+}
+.about .why .container2 .innerContainer {
+  display: flex;
+  gap: 4rem;
+}
+.about .why .container2 .innerContainer .left img {
+  width: 370px;
+}
+.about .why .container2 .innerContainer .right {
+  width: 400px;
+}
+.about .why .container2 .innerContainer .right .activity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.about .why .container2 .innerContainer .right .activity p {
+  color: #16211E;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.about .why .container2 .innerContainer .right .activity .number {
+  font-size: 4rem;
+  margin-right: 2rem;
+}
+
+footer {
+  background: #003D2B;
+  color: #ECFFFD;
+  padding: 3rem 0;
+}
+footer .footerContainer {
+  width: 85vw;
+  margin: 0 auto;
+}
+footer .footerContainer .footContent {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerContainer .footContent .footerSub h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+footer .footerContainer .footContent .footerSub ul li {
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+footer .footerContainer .footContent .footerSub ul li a {
+  color: #ECFFFD;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+footer .footerContainer .footContent .footerSub ul li a:hover {
+  color: #D3817A;
+}
+footer .footerContainer .footContent .footerSub input[type=text] {
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background: #E2ECBC;
+  width: 250px;
+  margin-bottom: 2rem;
+}
+footer .footerContainer .footContent .footerSub input[type=text]::placeholder {
+  font-style: italic;
+  font-weight: 400;
+}
+footer .footerContainer .footContent .footerSub input[type=text]:focus {
+  outline: none;
+}
+footer .footerContainer .footContent .footerSub textarea {
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: #E2ECBC;
+  width: 250px;
+  margin-bottom: 2rem;
+}
+footer .footerContainer .footContent .footerSub textarea::placeholder {
+  font-style: italic;
+  font-weight: 400;
+}
+footer .footerContainer .footContent .footerSub textarea:focus {
+  outline: none;
+}
+footer .footerContainer .footContent .footerSub .feedButton {
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #D3817A;
+  color: #ECFFFD;
+  transition: 0.5s ease;
+}
+footer .footerContainer .footContent .footerSub .feedButton:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+footer .footerContainer .footContent .footerSub .socials .icons {
+  margin: 0.5rem 1rem 0 0;
+  font-size: 1.2rem;
+}
+footer .footerContainer .copyrightText {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.projects {
+  background: #FCFDF8;
+}
+.projects .landingProjects {
+  width: 100vw;
+  min-height: 1400px;
   background: url(../images/bg2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #fff;
-  overflow: hidden;
- 
 }
-.title h1{
-  margin-top: 8rem;
-  
-  font-size: 50px;
-  font-weight: 900;
-  color: #fff;
-  margin-left: 8rem;
+.projects .landingProjects .myNav .myLogo #myLogo {
+  height: 20px;
+  margin: 3.5rem 0 0 5.5rem;
 }
-h1 span{
-  color: #003D2B;
+.projects .landingProjects .container {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 10rem;
+  position: relative;
 }
-.first-blog{
+.projects .landingProjects .container h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 4.768rem;
+  color: #ECFFFD;
+  line-height: 5.5rem;
+}
+.projects .landingProjects .container img {
+  height: 220px;
+  position: relative;
+  left: 32rem;
+  top: -4.5rem;
+}
+.projects .landingProjects .project1 {
+  width: 80vw;
+  margin: 0 auto;
   display: flex;
-  padding-top: 6rem;
-  justify-content: center;
-  margin-left: 8rem;
+  gap: 4.5rem;
+  margin-top: 6rem;
 }
-.readMore{
-  padding: 5px;
-  margin-top: 20px;
-  background-color: #fff;
-  color: #003D2B;
-  font-size: 18px;
-  margin: 10px;
-  transition: 0.5s;
-  border-color: #ECFFFD;
-  font-weight: bold;
-  text-align: center;
+.projects .landingProjects .project1 .left img {
+  height: 280px;
 }
-.readMore:hover{
-  transform: scale(0.8);
+.projects .landingProjects .project1 .right {
+  color: #ECFFFD;
 }
-.firstBlog2{
+.projects .landingProjects .project1 .right h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.953rem;
+  margin-bottom: 0.8rem;
+}
+.projects .landingProjects .project1 .right p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding-right: 2rem;
+}
+.projects .project2 {
+  width: 80vw;
+  margin: 0 auto;
   display: flex;
-  padding-bottom:5rem ;
-  padding-left: 4rem;
-  flex-direction: column;
+  gap: 5rem;
+  margin-top: 6rem;
 }
-.second-blog{
+.projects .project2 .left {
+  color: #16211E;
+}
+.projects .project2 .left h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.953rem;
+  margin-bottom: 0.8rem;
+}
+.projects .project2 .left p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+  padding-right: 2rem;
+}
+.projects .project2 .right {
+  margin-top: -12.8rem;
+}
+.projects .project2 .right img {
+  width: 410px;
+}
+.projects .project3 {
+  width: 80vw;
+  margin: 0 auto;
   display: flex;
-  padding-top: 4rem;
-  align-items: center;
-  margin-left: 8rem;
-  justify-content: space-between;
-
+  gap: 4.5rem;
+  margin-top: 12rem;
 }
-.second-blog > div{
+.projects .project3 .left img {
+  height: 280px;
+}
+.projects .project3 .right {
+  color: #16211E;
+}
+.projects .project3 .right h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.953rem;
+  margin-bottom: 0.8rem;
+}
+.projects .project3 .right p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+  padding-right: 0rem;
+}
+.projects .project4 {
+  width: 80vw;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  gap: 3rem;
+  margin-top: 12rem;
+  margin-bottom: 10rem;
 }
-.blog .techBlog{
-  left: 0;
-  width: 100vw;
-  min-height: 600px;
-  
+.projects .project4 .left {
+  color: #16211E;
 }
-.techBlog{
+.projects .project4 .left h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.953rem;
+  margin-bottom: 0.8rem;
+}
+.projects .project4 .left p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+  padding-right: 2rem;
+}
+.projects .project4 .right {
+  padding-top: 1rem;
+}
+.projects .project4 .right img {
+  width: 450px;
+}
+.projects .moreIdeas {
+  background: #E2ECBC;
+  position: relative;
+  min-height: 750px;
+  padding-top: 8rem;
+}
+.projects .moreIdeas .container {
+  width: 80vw;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
 }
-.tech-title {
-  font-size: 24px;
-  color: #003D2B;
-  font-weight: 900;
- margin-left: 8rem;
- padding-top: 3rem;
-  border-bottom: 2px solid #003D2B;
-}
-.artificial{
-  display: flex;
-  flex-direction: column;
-  float: right;
-  padding-left: 30rem;
-}
-.artificial-title{
-  font-size: 18px;
+.projects .moreIdeas .container .left h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
   color: #D3817A;
+  line-height: 4rem;
+  margin-bottom: 2rem;
 }
-.artificial-p{
-  font-size: 12px;
-  color: rgb(13, 10, 10);
+.projects .moreIdeas .container .left h2 span {
+  color: #064B27;
 }
-.tech-content{
-  margin-left: 8rem;
-  display: flex;
-  
+.projects .moreIdeas .container .left p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.441rem;
+  font-weight: 500;
+  color: #064B27;
+  margin-bottom: 1rem;
 }
-.blogContent .second-blog .techBlog img{
-  height: 300px;
-  width: 300px;
-} */
-/*# sourceMappingURL=styles.css.map */
+.projects .moreIdeas .container .right {
+  position: absolute;
+  right: 0rem;
+  top: -1rem;
+}
+.projects .moreIdeas .container .right img {
+  width: 370px;
+}
+
+@media only screen and (max-width: 700px) {
+  .homePage .landing {
+    width: 100vw;
+    min-height: 700px;
+  }
+  .homePage .landing .myNav .myLogo #myLogo {
+    height: 15px;
+    margin: 3.5rem 0 0 1.5rem;
+  }
+  .homePage .landing .container {
+    width: 90vw;
+    flex-direction: column;
+  }
+  .homePage .landing .container .leftDiv {
+    padding-left: 0.5rem;
+  }
+  .homePage .landing .container .leftDiv h1 {
+    font-size: 2.653rem;
+    margin: 9rem 0 0 0;
+  }
+  .homePage .landing .container .leftDiv .textDiv {
+    margin-top: 25px;
+    width: 95%;
+    border-left: 3px solid #93BA08;
+    padding: 0.8rem;
+  }
+  .homePage .landing .container .rightDiv {
+    height: 100%;
+    flex-direction: column;
+  }
+  .homePage .landing .container .rightDiv img {
+    height: 199px;
+    width: 130px;
+    margin-left: 10rem;
+    margin-top: 4rem;
+  }
+  .homePage .landing .container .rightDiv .socials {
+    flex-direction: row;
+    margin: 1rem 0 0 11rem;
+  }
+  .homePage .landing .container .rightDiv .socials .icons {
+    margin: 0.5rem;
+  }
+  .homePage .intro .innerSection {
+    width: 90vw;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .homePage .intro .innerSection p {
+    font-size: 16px;
+  }
+  .homePage .intro .innerSection p span {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .homePage .intro .innerSection img {
+    height: 80px;
+    margin-left: 12.6rem;
+    margin-top: 0rem;
+  }
+  .homePage .innovations {
+    padding-top: 3rem;
+  }
+  .homePage .innovations .innerSection2 {
+    width: 90vw;
+    flex-direction: column;
+  }
+  .homePage .innovations .innerSection2 .left img {
+    display: none;
+  }
+  .homePage .innovations .innerSection2 .right {
+    margin-left: 0rem;
+  }
+  .homePage .innovations .innerSection2 .right P {
+    padding: 0;
+    margin-bottom: 2rem;
+    font-size: 16px;
+  }
+  .homePage .innovations .innerSection2 .right P span {
+    font-size: 25px;
+    color: #003D2B;
+    font-weight: 500;
+    margin-right: 0.4rem;
+  }
+  .homePage .innovations .innerSection2 .right img {
+    height: 270px;
+    width: 180px;
+    margin-left: 8rem;
+  }
+  .homePage .projectsSection {
+    margin-top: -4rem;
+    width: 100vw;
+    min-height: 1030px;
+    padding-top: 6.5rem;
+  }
+  .homePage .projectsSection .innerSection3 {
+    width: 90vw;
+  }
+  .homePage .projectsSection .innerSection3 .box {
+    margin-top: 10rem;
+  }
+  .homePage .projectsSection .innerSection3 .box img {
+    height: 120px;
+    width: 220px;
+  }
+  .homePage .projectsSection .innerSection3 .box a {
+    font-size: 14px;
+    padding: 0.5rem 1rem 0.5rem 0;
+  }
+  .homePage .projectsSection .innerSection3 .left #box1 {
+    padding-top: 6rem;
+    margin-left: 0rem;
+  }
+  .homePage .projectsSection .innerSection3 .left p {
+    font-size: 31px;
+    line-height: 35px;
+  }
+  .homePage .projectsSection .innerSection3 .left #toProjects {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+    margin-top: 18rem;
+    margin-left: 0rem;
+  }
+  .homePage .projectsSection .innerSection3 .right {
+    margin-left: -8rem;
+  }
+  .homePage .projectsSection .innerSection3 .right #box3 {
+    padding-top: 6rem;
+  }
+  .homePage .categories {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .homePage .categories .innerSection {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .homePage .categories .innerSection h3 {
+    font-size: 25px;
+  }
+  .homePage .categories .innerSection #lowerH3 {
+    margin-left: 3.8rem;
+  }
+  .homePage .categories .innerSection #toTeams {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+    left: 24vw;
+    margin-top: 3rem;
+  }
+  .homePage .categories .innerSection .container {
+    margin-top: 1rem;
+    flex-direction: column-reverse;
+  }
+  .homePage .categories .innerSection .container .left img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    height: 250px;
+  }
+  .homePage .categories .innerSection .container .right {
+    border-left: 3px solid #D3817A;
+    margin-left: 0rem;
+    padding: 0.7rem;
+  }
+  .homePage .categories .innerSection .container .right p {
+    font-size: 16px;
+    line-height: 1.8rem;
+  }
+  .homePage .partners {
+    background: #E2ECBC;
+    padding-top: 3rem;
+    min-height: 520px;
+  }
+  .homePage .partners .innerSection {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+  }
+  .homePage .partners .innerSection .left h3 {
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+  }
+  .homePage .partners .innerSection .left img {
+    height: 100px;
+    transform: rotate(-29.01deg);
+    top: 0.8rem;
+    left: 1.8rem;
+  }
+  .homePage .partners .innerSection .right {
+    flex-direction: column;
+    align-items: center;
+    margin-left: -5rem;
+    padding-top: 6rem;
+  }
+  .homePage .partners .innerSection .right .partnersLogo {
+    display: block;
+    margin-bottom: 0rem;
+  }
+  .homePage .partners .innerSection .right #coelib {
+    position: relative;
+    top: 0rem;
+    height: 23px;
+    width: 79px;
+    left: 0rem;
+  }
+  .homePage .partners .innerSection .right #egerton {
+    height: 65px;
+    width: 75px;
+    padding-left: 0rem;
+  }
+  .homePage .partners .innerSection .right #eutec {
+    height: 75px;
+    width: 75px;
+  }
+  .homePage .partners .innerSection .right #mastrich {
+    top: 0rem;
+    height: 35px;
+    padding-left: 0rem;
+  }
+  footer {
+    padding: 3rem 0 1rem 0;
+  }
+  footer .footerContainer {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  footer .footerContainer .footContent {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 4rem;
+    padding-left: 1rem;
+  }
+  footer .footerContainer .footContent .footerSub h4 {
+    font-size: 0.8rem;
+    margin: 1.1rem 0 0.3rem;
+  }
+  footer .footerContainer .footContent .footerSub ul li {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+  }
+  footer .footerContainer .footContent .footerSub input[type=text] {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  footer .footerContainer .footContent .footerSub textarea {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  footer .footerContainer .footContent .footerSub .feedButton {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+  }
+  footer .footerContainer .footContent .footerSub .socials .icons {
+    font-size: 1rem;
+  }
+  footer .footerContainer .copyrightText {
+    font-size: 0.7rem;
+    padding-top: 3rem;
+  }
+  .about .landing {
+    min-height: 600px;
+  }
+  .about .landing .myNav .myLogo #myLogo {
+    height: 20px;
+    margin: 3rem 0 0 2rem;
+  }
+  .about .landing .textBox {
+    padding: 0rem;
+    width: 90vw;
+    margin-top: 7rem;
+  }
+  .about .landing .textBox .myTitle {
+    font-size: 2.5rem;
+  }
+  .about .landing .textBox .txt {
+    font-size: 1rem;
+  }
+  .about .subSection {
+    padding: 0rem;
+    width: 90vw;
+    margin-top: -8rem;
+  }
+  .about .subSection .left img {
+    height: 180px;
+  }
+  .about .subSection .left p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+  }
+  .about .subSection .right {
+    display: none;
+  }
+  .about .why {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .about .why .container1 {
+    width: 90vw;
+  }
+  .about .why .container1 .whyTxt h2 {
+    font-size: 2rem;
+  }
+  .about .why .container1 .whyTxt ul {
+    padding-left: 1.3rem;
+  }
+  .about .why .container1 .whyTxt ul li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .about .why .container1 .leafDiv {
+    display: none;
+  }
+  .about .why .container2 {
+    width: 90vw;
+    margin-top: 4rem;
+  }
+  .about .why .container2 h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .about .why .container2 .innerContainer {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .about .why .container2 .innerContainer .left img {
+    width: 320px;
+  }
+  .about .why .container2 .innerContainer .right {
+    width: 340px;
+  }
+  .about .why .container2 .innerContainer .right .activity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+  }
+  .about .why .container2 .innerContainer .right .activity p {
+    font-size: 1rem;
+  }
+  .about .why .container2 .innerContainer .right .activity .number {
+    font-size: 2rem;
+    margin-right: 0.7rem;
+  }
+  .projects .landingProjects {
+    min-height: 1400px;
+  }
+  .projects .landingProjects .myNav .myLogo #myLogo {
+    height: 20px;
+    margin: 3.5rem 0 0 2rem;
+  }
+  .projects .landingProjects .container {
+    width: 90vw;
+    margin-top: 7rem;
+  }
+  .projects .landingProjects .container h1 {
+    font-size: 3rem;
+    line-height: 3.3rem;
+  }
+  .projects .landingProjects .container img {
+    height: 120px;
+    left: 4.6rem;
+    top: 2.5rem;
+  }
+  .projects .landingProjects .project1 {
+    width: 90vw;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 8rem;
+  }
+  .projects .landingProjects .project1 .left img {
+    height: 214px;
+  }
+  .projects .landingProjects .project1 .right h5 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+  .projects .landingProjects .project1 .right p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding-right: 0rem;
+  }
+  .projects .project2 {
+    width: 90vw;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    margin-top: 0rem;
+  }
+  .projects .project2 .left h5 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+  .projects .project2 .left p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding-right: 0rem;
+  }
+  .projects .project2 .right {
+    margin-top: -13.4rem;
+  }
+  .projects .project2 .right img {
+    width: 320px;
+  }
+  .projects .project3 {
+    width: 90vw;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+  .projects .project3 .left img {
+    height: 212px;
+  }
+  .projects .project3 .right h5 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+  .projects .project3 .right p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding-right: 0rem;
+  }
+  .projects .project4 {
+    width: 90vw;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+  .projects .project4 .left h5 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+  .projects .project4 .left p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding-right: 0rem;
+  }
+  .projects .project4 .right {
+    margin-top: 0rem;
+  }
+  .projects .project4 .right img {
+    width: 320px;
+  }
+  .projects .moreIdeas {
+    min-height: 350px;
+    padding-top: 3.5rem;
+  }
+  .projects .moreIdeas .container {
+    width: 90vw;
+  }
+  .projects .moreIdeas .container .left h2 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  .projects .moreIdeas .container .left p {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+  }
+  .projects .moreIdeas .container .right img {
+    width: 130px;
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+  .homePage .landing {
+    width: 100vw;
+    min-height: 800px;
+  }
+  .homePage .landing .myNav .myLogo #myLogo {
+    height: 15px;
+    margin: 3.5rem 0 0 3rem;
+  }
+  .homePage .landing .container {
+    width: 85vw;
+    display: flex;
+  }
+  .homePage .landing .container .leftDiv {
+    height: 100%;
+  }
+  .homePage .landing .container .leftDiv h1 {
+    font-size: 5rem;
+  }
+  .homePage .landing .container .leftDiv .textDiv {
+    margin-top: 20px;
+    width: 80%;
+    border-left: 3px solid #93BA08;
+    padding: 1rem;
+  }
+  .homePage .landing .container .rightDiv {
+    margin-top: 2.5rem;
+  }
+  .homePage .landing .container .rightDiv img {
+    height: 300px;
+    margin-left: -1rem;
+    margin-top: 20rem;
+  }
+  .homePage .landing .container .rightDiv .socials {
+    margin: 33rem 0 0 1rem;
+  }
+  .homePage .intro .innerSection {
+    width: 80vw;
+    padding-top: 5rem;
+  }
+  .homePage .intro .innerSection p {
+    font-size: 25px;
+  }
+  .homePage .intro .innerSection p span {
+    font-size: 14px;
+  }
+  .homePage .intro .innerSection img {
+    height: 130px;
+    margin-top: -2rem;
+  }
+  .homePage .innovations {
+    padding-top: 6rem;
+  }
+  .homePage .innovations .innerSection2 {
+    width: 90vw;
+  }
+  .homePage .innovations .innerSection2 .left img {
+    width: 290px;
+    height: 440px;
+  }
+  .homePage .innovations .innerSection2 .right {
+    margin-left: 4rem;
+  }
+  .homePage .innovations .innerSection2 .right P {
+    padding: 1rem 0rem 0 0;
+    margin-bottom: 3.5rem;
+    font-size: 18px;
+  }
+  .homePage .innovations .innerSection2 .right P span {
+    font-size: 25px;
+    margin-right: 0.3rem;
+  }
+  .homePage .innovations .innerSection2 .right img {
+    height: 450px;
+    width: 330px;
+  }
+  .homePage .projectsSection {
+    margin-top: -6rem;
+    min-height: 1280px;
+    padding-top: 10rem;
+  }
+  .homePage .projectsSection .innerSection3 {
+    width: 90vw;
+  }
+  .homePage .projectsSection .innerSection3 .box {
+    margin-top: 12.9rem;
+  }
+  .homePage .projectsSection .innerSection3 .box img {
+    height: 150px;
+    width: 250px;
+  }
+  .homePage .projectsSection .innerSection3 .box a {
+    font-size: 16px;
+  }
+  .homePage .projectsSection .innerSection3 .left {
+    margin-left: 0rem;
+  }
+  .homePage .projectsSection .innerSection3 .left #box1 {
+    padding-top: 8rem;
+    margin-left: 4rem;
+  }
+  .homePage .projectsSection .innerSection3 .left p {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .homePage .projectsSection .innerSection3 .left #toProjects {
+    margin-top: 20rem;
+    margin-left: 4rem;
+  }
+  .homePage .projectsSection .innerSection3 .right {
+    margin-left: 7rem;
+  }
+  .homePage .projectsSection .innerSection3 .right #box3 {
+    padding-top: 8rem;
+  }
+  .homePage .categories {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .homePage .categories .innerSection {
+    width: 90vw;
+  }
+  .homePage .categories .innerSection h3 {
+    font-size: 30px;
+  }
+  .homePage .categories .innerSection #lowerH3 {
+    margin-left: 4.6rem;
+  }
+  .homePage .categories .innerSection #toTeams {
+    left: 30vw;
+    margin-top: 5rem;
+  }
+  .homePage .categories .innerSection #toTeams:hover {
+    transform: scale(1.1);
+  }
+  .homePage .categories .innerSection .container {
+    margin-top: 2rem;
+    display: flex;
+  }
+  .homePage .categories .innerSection .container .left img {
+    height: 300px;
+  }
+  .homePage .categories .innerSection .container .right {
+    border-left: 3px solid #D3817A;
+    margin-left: 3rem;
+    padding: 1.4rem;
+  }
+  .homePage .categories .innerSection .container .right p {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  .homePage .partners {
+    padding-top: 4rem;
+    min-height: 500px;
+  }
+  .homePage .partners .innerSection {
+    width: 90vw;
+  }
+  .homePage .partners .innerSection .left {
+    position: relative;
+  }
+  .homePage .partners .innerSection .left h3 {
+    font-size: 31px;
+    line-height: 2.2rem;
+  }
+  .homePage .partners .innerSection .left img {
+    height: 160px;
+    top: 0.8rem;
+    left: -0.5rem;
+  }
+  .homePage .partners .innerSection .right {
+    margin-left: 3rem;
+    padding-top: 2rem;
+  }
+  .homePage .partners .innerSection .right #coelib {
+    height: 43px;
+  }
+  .homePage .partners .innerSection .right #egerton {
+    height: 100px;
+  }
+  .homePage .partners .innerSection .right #eutec {
+    height: 100px;
+  }
+  .homePage .partners .innerSection .right #mastrich {
+    height: 50px;
+  }
+  footer {
+    padding: 3rem 0 1rem 0;
+  }
+  footer .footerContainer {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  footer .footerContainer .footContent {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 4rem;
+    padding-left: 1rem;
+  }
+  footer .footerContainer .footContent .footerSub h4 {
+    font-size: 0.8rem;
+    margin: 1.1rem 0 0.3rem;
+  }
+  footer .footerContainer .footContent .footerSub ul li {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+  }
+  footer .footerContainer .footContent .footerSub input[type=text] {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    width: 150px;
+  }
+  footer .footerContainer .footContent .footerSub textarea {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+    width: 150px;
+  }
+  footer .footerContainer .footContent .footerSub .feedButton {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+  }
+  footer .footerContainer .footContent .footerSub .socials .icons {
+    font-size: 1rem;
+  }
+  footer .footerContainer .copyrightText {
+    font-size: 0.7rem;
+    padding-top: 3rem;
+  }
+  .about .landing {
+    min-height: 700px;
+  }
+  .about .landing .myNav .myLogo #myLogo {
+    margin: 3.5rem 0 0 3.5rem;
+  }
+  .about .landing .textBox {
+    padding: 1rem;
+    width: 90vw;
+    margin-top: 7.5rem;
+  }
+  .about .landing .textBox .myTitle {
+    font-size: 4rem;
+  }
+  .about .landing .textBox .txt {
+    font-size: 1.25rem;
+  }
+  .about .subSection {
+    padding: 2rem 0 0 1rem;
+    width: 90vw;
+  }
+  .about .subSection .left img {
+    height: 320px;
+  }
+  .about .subSection .left p {
+    font-size: 1.3rem;
+    margin-top: 1.4rem;
+  }
+  .about .subSection .right {
+    display: none;
+  }
+  .about .why {
+    margin-top: 5rem;
+  }
+  .about .why .container1 {
+    width: 90vw;
+  }
+  .about .why .container1 .whyTxt h2 {
+    font-size: 3.3rem;
+  }
+  .about .why .container1 .whyTxt ul {
+    padding-left: 2rem;
+  }
+  .about .why .container1 .whyTxt ul li {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .about .why .container1 .leafDiv #leaf {
+    width: 300px;
+  }
+  .about .why .container2 {
+    width: 90vw;
+  }
+  .about .why .container2 h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .about .why .container2 .innerContainer {
+    gap: 3rem;
+  }
+  .about .why .container2 .innerContainer .left img {
+    width: 310px;
+  }
+  .about .why .container2 .innerContainer .right {
+    width: 400px;
+  }
+  .about .why .container2 .innerContainer .right .activity p {
+    font-size: 1.5rem;
+  }
+  .about .why .container2 .innerContainer .right .activity .number {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+  .projects .landingProjects {
+    min-height: 1200px;
+  }
+  .projects .landingProjects .myNav .myLogo #myLogo {
+    height: 20px;
+    margin: 3.5rem 0 0 2.5rem;
+  }
+  .projects .landingProjects .container {
+    width: 90vw;
+  }
+  .projects .landingProjects .container h1 {
+    font-size: 3.3rem;
+    line-height: 3.5rem;
+  }
+  .projects .landingProjects .container img {
+    height: 150px;
+    left: 23.4rem;
+    top: 0rem;
+  }
+  .projects .landingProjects .project1 {
+    width: 90vw;
+    margin: 0 auto;
+    gap: 1.5rem;
+    margin-top: 8rem;
+  }
+  .projects .landingProjects .project1 .left img {
+    height: 200px;
+  }
+  .projects .landingProjects .project1 .right h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+  }
+  .projects .landingProjects .project1 .right p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-right: 0rem;
+  }
+  .projects .project2 {
+    width: 90vw;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+  }
+  .projects .project2 .left h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+  }
+  .projects .project2 .left p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-right: 0rem;
+  }
+  .projects .project2 .right {
+    margin-top: -10.8rem;
+  }
+  .projects .project2 .right img {
+    width: 300px;
+  }
+  .projects .project3 {
+    width: 90vw;
+    gap: 1.5rem;
+    margin-top: 6rem;
+  }
+  .projects .project3 .left img {
+    height: 220px;
+  }
+  .projects .project3 .right h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+  }
+  .projects .project3 .right p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-right: 0rem;
+  }
+  .projects .project4 {
+    width: 90vw;
+    gap: 1.5rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+  .projects .project4 .left h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+  }
+  .projects .project4 .left p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-right: 0rem;
+  }
+  .projects .project4 .right {
+    padding-top: 0.4rem;
+  }
+  .projects .project4 .right img {
+    width: 350px;
+  }
+  .projects .moreIdeas {
+    min-height: 550px;
+    padding-top: 6rem;
+  }
+  .projects .moreIdeas .container {
+    width: 90vw;
+  }
+  .projects .moreIdeas .container .left h2 {
+    font-size: 3rem;
+    line-height: 3.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .projects .moreIdeas .container .left p {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .projects .moreIdeas .container .right img {
+    width: 300px;
+  }
+}
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1200px) {
+  .homePage .landing {
+    width: 100vw;
+    min-height: 820px;
+  }
+  .homePage .landing .myNav .myLogo #myLogo {
+    height: 15px;
+    margin: 3.5rem 0 0 3.5rem;
+  }
+  .homePage .landing .container {
+    width: 85vw;
+    display: flex;
+  }
+  .homePage .landing .container .leftDiv {
+    height: 100%;
+  }
+  .homePage .landing .container .leftDiv h1 {
+    font-size: 7.5rem;
+  }
+  .homePage .landing .container .leftDiv .textDiv {
+    margin-top: 20px;
+    width: 80%;
+    border-left: 3px solid #93BA08;
+    padding: 1rem;
+  }
+  .homePage .landing .container .rightDiv {
+    margin-top: 2.5rem;
+  }
+  .homePage .landing .container .rightDiv img {
+    height: 300px;
+    margin-left: -1rem;
+    margin-top: 20rem;
+  }
+  .homePage .landing .container .rightDiv .socials {
+    margin: 33rem 0 0 1rem;
+  }
+  .homePage .intro .innerSection {
+    width: 80vw;
+    padding-top: 5rem;
+  }
+  .homePage .intro .innerSection p {
+    font-size: 25px;
+  }
+  .homePage .intro .innerSection p span {
+    font-size: 14px;
+  }
+  .homePage .intro .innerSection img {
+    height: 130px;
+    margin-top: -2rem;
+    margin-left: 38rem;
+  }
+  .homePage .innovations {
+    padding-top: 6rem;
+  }
+  .homePage .innovations .innerSection2 {
+    width: 80vw;
+  }
+  .homePage .innovations .innerSection2 .left img {
+    width: 290px;
+    height: 440px;
+  }
+  .homePage .innovations .innerSection2 .right {
+    margin-left: 7rem;
+  }
+  .homePage .innovations .innerSection2 .right P {
+    padding: 1rem 2.9rem 0 0;
+    margin-bottom: 3.5rem;
+    font-size: 18px;
+  }
+  .homePage .innovations .innerSection2 .right P span {
+    font-size: 25px;
+    margin-right: 0.3rem;
+  }
+  .homePage .innovations .innerSection2 .right img {
+    height: 450px;
+    width: 330px;
+  }
+  .homePage .projectsSection {
+    margin-top: -6rem;
+    min-height: 1350px;
+    padding-top: 10rem;
+  }
+  .homePage .projectsSection .innerSection3 {
+    width: 90vw;
+  }
+  .homePage .projectsSection .innerSection3 .box {
+    margin-top: 12.9rem;
+  }
+  .homePage .projectsSection .innerSection3 .box img {
+    height: 180px;
+    width: 280px;
+  }
+  .homePage .projectsSection .innerSection3 .box a {
+    font-size: 18px;
+  }
+  .homePage .projectsSection .innerSection3 .left {
+    margin-left: 2rem;
+  }
+  .homePage .projectsSection .innerSection3 .left #box1 {
+    padding-top: 8rem;
+    margin-left: 4rem;
+  }
+  .homePage .projectsSection .innerSection3 .left p {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .homePage .projectsSection .innerSection3 .left #toProjects {
+    margin-top: 20rem;
+    margin-left: 4rem;
+  }
+  .homePage .projectsSection .innerSection3 .right {
+    margin-left: 7rem;
+  }
+  .homePage .projectsSection .innerSection3 .right #box3 {
+    padding-top: 8rem;
+  }
+  .homePage .categories {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .homePage .categories .innerSection {
+    width: 70vw;
+  }
+  .homePage .categories .innerSection h3 {
+    font-size: 38px;
+  }
+  .homePage .categories .innerSection #lowerH3 {
+    margin-left: 6rem;
+  }
+  .homePage .categories .innerSection #toTeams {
+    left: 20vw;
+    margin-top: 5rem;
+  }
+  .homePage .categories .innerSection #toTeams:hover {
+    transform: scale(1.1);
+  }
+  .homePage .categories .innerSection .container {
+    margin-top: 2rem;
+    display: flex;
+  }
+  .homePage .categories .innerSection .container .left img {
+    height: 300px;
+  }
+  .homePage .categories .innerSection .container .right {
+    border-left: 3px solid #D3817A;
+    margin-left: 3rem;
+    padding: 1.4rem;
+  }
+  .homePage .categories .innerSection .container .right p {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  .homePage .partners {
+    padding-top: 4rem;
+    min-height: 500px;
+  }
+  .homePage .partners .innerSection {
+    width: 90vw;
+  }
+  .homePage .partners .innerSection .left {
+    position: relative;
+  }
+  .homePage .partners .innerSection .left h3 {
+    font-size: 40px;
+    line-height: 2.2rem;
+  }
+  .homePage .partners .innerSection .left img {
+    height: 180px;
+    top: 0.6rem;
+    left: 0.5rem;
+  }
+  .homePage .partners .innerSection .right {
+    width: 60%;
+    margin-left: 9rem;
+    padding-top: 2rem;
+  }
+  .homePage .partners .innerSection .right #coelib {
+    height: 43px;
+  }
+  .homePage .partners .innerSection .right #egerton {
+    height: 100px;
+  }
+  .homePage .partners .innerSection .right #eutec {
+    height: 100px;
+  }
+  .homePage .partners .innerSection .right #mastrich {
+    height: 50px;
+  }
+  .about .subSection .right img {
+    display: none;
+  }
+  .projects .landingProjects {
+    min-height: 1300px;
+  }
+  .projects .landingProjects .myNav .myLogo #myLogo {
+    height: 20px;
+    margin: 3.5rem 0 0 3.5rem;
+  }
+  .projects .landingProjects .container {
+    width: 80vw;
+  }
+  .projects .landingProjects .container h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  .projects .landingProjects .container img {
+    height: 200px;
+    left: 24rem;
+    top: -2rem;
+  }
+  .projects .landingProjects .project1 {
+    width: 80vw;
+    gap: 2.5rem;
+    margin-top: 8rem;
+  }
+  .projects .landingProjects .project1 .left img {
+    height: 230px;
+  }
+  .projects .landingProjects .project1 .right h5 {
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+  }
+  .projects .landingProjects .project1 .right p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-right: 0rem;
+  }
+  .projects .project2 {
+    width: 80vw;
+    gap: 2.5rem;
+    margin-top: 3.6rem;
+  }
+  .projects .project2 .left h5 {
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+  }
+  .projects .project2 .left p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-right: 0rem;
+  }
+  .projects .project2 .right {
+    margin-top: -12.8rem;
+  }
+  .projects .project2 .right img {
+    width: 320px;
+  }
+  .projects .project3 {
+    width: 80vw;
+    gap: 2.5rem;
+    margin-top: 8rem;
+  }
+  .projects .project3 .left img {
+    height: 260px;
+  }
+  .projects .project3 .right h5 {
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+  }
+  .projects .project3 .right p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-right: 0rem;
+  }
+  .projects .project4 {
+    width: 80vw;
+    gap: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+  }
+  .projects .project4 .left h5 {
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+  }
+  .projects .project4 .left p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-right: 0rem;
+  }
+  .projects .project4 .right {
+    padding-top: 0.4rem;
+  }
+  .projects .project4 .right img {
+    width: 380px;
+  }
+  .projects .moreIdeas {
+    min-height: 600px;
+    padding-top: 7rem;
+  }
+  .projects .moreIdeas .container {
+    width: 90vw;
+  }
+  .projects .moreIdeas .container .left h2 {
+    font-size: 3.7rem;
+    line-height: 3.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .projects .moreIdeas .container .left p {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  .projects .moreIdeas .container .right img {
+    width: 320px;
+  }
+}
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1361px) {
+  .homePage {
+    /*
+    .landing{
+        width: 100vw;
+        min-height: 820px;
+
+        .myNav{
+
+            .myLogo{
+
+
+                #myLogo{
+                    height: 15px;
+                    margin: 3.5rem 0 0 3.5rem;
+                }
+            }
+        }
+
+
+        .container{
+            width: 85vw;
+            display: flex;
+
+            .leftDiv{
+                height: 100%;
+
+                h1{
+                    font-size: 7.5rem;
+                }
+                .textDiv{
+                    margin-top: 20px;
+                    width: 80%;
+                    border-left: 3px solid #93BA08;
+                    padding: 1rem;
+                }
+            }
+            .rightDiv{
+                margin-top: 2.5rem;
+
+                img{
+                    height: 300px;
+                    margin-left: -1rem;
+                    margin-top: 20rem;
+                }
+
+                .socials{
+                    margin: 33rem 0 0 1rem;
+                }
+            }
+        }
+    }
+    */
+  }
+  .homePage .intro .innerSection {
+    width: 80vw;
+  }
+  .homePage .intro .innerSection p {
+    font-size: 38px;
+  }
+  .homePage .intro .innerSection p span {
+    font-size: 16px;
+  }
+  .homePage .intro .innerSection img {
+    height: 190px;
+    margin-top: -2rem;
+    margin-left: 48rem;
+  }
+}
+@media only screen and (min-device-width: 1362px) and (max-device-width: 1450px) {
+  .homePage .intro .innerSection {
+    width: 80vw;
+  }
+  .homePage .intro .innerSection p {
+    font-size: 38px;
+  }
+  .homePage .intro .innerSection p span {
+    font-size: 16px;
+  }
+  .homePage .intro .innerSection img {
+    height: 190px;
+    margin-top: -2rem;
+    margin-left: 48rem;
+  }
+}
+@media only screen and (min-device-width: 1401px) and (max-device-width: 1500px) {
+  .homePage .partners .innerSection .right {
+    margin-left: 12rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

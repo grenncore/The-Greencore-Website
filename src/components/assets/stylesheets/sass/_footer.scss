@@ -1,0 +1,118 @@
+footer{
+    background: $primary;
+    color: $textColor2;
+    padding: 3rem 0 ;
+
+    .footerContainer{
+        width: 85vw;
+        margin: 0 auto;
+
+        .footContent{
+            display: flex;
+            justify-content: space-between;
+
+            .footerSub{
+                h4{
+                    font-family: $mont;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    margin-bottom: 1rem;
+                }
+
+                ul{
+                    li{
+                        list-style-type: none;
+                        font-family: $poppins;
+                        font-weight: 300;
+                        font-style: italic;
+                        font-size: .8rem;
+                        line-height: 1.5rem;
+
+                        a{
+                            color: $textColor2;
+                            text-decoration: none;
+                            transition: .5s ease;
+
+                            &:hover{
+                                color: $secondary;
+                            }
+                        }
+                    }
+                }
+
+                input[type="text"]{
+                    font-family: $mont;
+                    padding: .5rem;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    background: #E2ECBC;
+                    width: 250px;
+                    margin-bottom: 2rem;
+
+                    &::placeholder{
+                        font-style: italic;
+                        font-weight: 400;
+                    }
+
+                    &:focus{
+                        outline: none;
+                    }
+                }
+
+                textarea{
+                    font-family: $mont;
+                    padding: .5rem;
+                    font-size: 1rem;
+                    background: #E2ECBC;
+                    width: 250px;
+                    margin-bottom: 2rem;
+
+
+                    &::placeholder{
+                        font-style: italic;
+                        font-weight: 400;
+                    }
+
+                    &:focus{
+                        outline: none;
+                    }
+                }
+
+                .feedButton{
+                    border: none;
+                    outline: none;
+                    font-family: $mont;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    padding: .7rem 1.5rem;
+                    background: $secondary;
+                    color: $textColor2;
+                    transition: .5s ease;
+
+                    &:hover{
+                        cursor: pointer;
+                        transform: scale(.9);
+                    }
+                }
+
+                .socials{
+
+                    .icons{
+                        margin: .5rem 1rem 0 0;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+
+        }
+
+        
+        .copyrightText{
+            font-family: $mont;
+            font-weight: 700;
+            font-style: italic;
+            font-size: .8rem;
+            text-align: center;
+        }
+    }
+}

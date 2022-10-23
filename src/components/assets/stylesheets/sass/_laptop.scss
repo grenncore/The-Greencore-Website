@@ -1,0 +1,134 @@
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1361px) {
+    .homePage{
+        /*
+        .landing{
+            width: 100vw;
+            min-height: 820px;
+    
+            .myNav{
+    
+                .myLogo{
+                   
+    
+                    #myLogo{
+                        height: 15px;
+                        margin: 3.5rem 0 0 3.5rem;
+                    }
+                }
+            }
+    
+            
+            .container{
+                width: 85vw;
+                display: flex;
+    
+                .leftDiv{
+                    height: 100%;
+        
+                    h1{
+                        font-size: 7.5rem;
+                    }
+                    .textDiv{
+                        margin-top: 20px;
+                        width: 80%;
+                        border-left: 3px solid #93BA08;
+                        padding: 1rem;
+                    }
+                }
+                .rightDiv{
+                    margin-top: 2.5rem;
+        
+                    img{
+                        height: 300px;
+                        margin-left: -1rem;
+                        margin-top: 20rem;
+                    }
+        
+                    .socials{
+                        margin: 33rem 0 0 1rem;
+                    }
+                }
+            }
+        }
+        */
+    
+        .intro{
+            
+            .innerSection{
+                width: 80vw;
+    
+                p{
+                    font-size: 38px;
+    
+                    span{
+                        font-size: 16px;
+                    }
+                }
+    
+                img{
+                    height: 190px;
+                    margin-top: -2rem;
+                    margin-left: 48rem;
+                }
+            }
+        }
+
+
+    
+       
+
+    
+
+
+        
+    }
+}
+
+@media only screen and (min-device-width: 1362px) and (max-device-width: 1450px) {
+    .homePage{
+
+        .intro{
+            
+            .innerSection{
+                width: 80vw;
+    
+                p{
+                    font-size: 38px;
+    
+                    span{
+                        font-size: 16px;
+                    }
+                }
+    
+                img{
+                    height: 190px;
+                    margin-top: -2rem;
+                    margin-left: 48rem;
+                }
+            }
+        }
+
+   
+    }
+}
+
+@media only screen and (min-device-width: 1401px) and (max-device-width: 1500px) {
+    .homePage{
+
+
+        .partners{
+    
+            .innerSection{
+    
+
+    
+                .right{
+                    margin-left: 12rem;
+    
+
+                }
+            }
+        }
+   
+    }
+}

@@ -1,64 +1,77 @@
 import React from 'react'
-import facebook from './assets/icons/icons8-facebook-96.png'
-import twitter from './assets/icons/icons8-twitter-96.png'
-import instagram from './assets/icons/icons8-instagram-96.png'
-import whatsapp from './assets/icons/icons8-whatsapp-96.png'
-import gmail from './assets/icons/icons8-envelope-96.png'
+import { Link } from "react-router-dom";
+import { FaInstagram }from 'react-icons/fa';
+import { FiTwitter } from 'react-icons/fi';
+import { FiLinkedin } from 'react-icons/fi';
 
 function Footer() {
   return (
-    <>
-        <div className='footercontainer'>
-            <div className='footcontent'>
-                <div className='footersub'>
-                    <h2>QUICK NAV</h2>
+    <footer>
+        <div className='footerContainer'>
+            <div className='footContent'>
+                <div className='footerSub'>
+                    <h4>QUICK NAV</h4>
                     <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Projects</li>
-                        <li>Our Teams</li>
-                        <li>Blog</li>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+
+                        <li>
+                            <Link to="/About">About</Link>
+                        </li>
+
+                        <li>
+                            <Link to="/Projects">Projects</Link>
+                        </li>
+
+                        <li>
+                            <Link to="/Teams">Our Teams</Link>
+                        </li>
+
+                        <li>
+                            <Link to="/Blog">Our Blogs</Link>
+                        </li>
+
+                        <li>
+                            <Link to="#contact">Contact Us</Link>
+                        </li>
                     </ul>
                 </div>
-                <div className='footersub'>
-                    <h2>OUR ADDRESS</h2>
+                <div className='footerSub'>
+                    <h4>OUR ADDRESS</h4>
                     <ul>
                         <li>P.O BOX 536</li>
                         <li>20115 Nakuru - Kenya</li>
                     </ul>
                 </div>
-                <div className='footersub'>
-                    <h2>GET IN TOUCH</h2>
+                <div className='footerSub'>
+                    <h4>GET IN TOUCH</h4>
                     <ul>
                         <li>+2547 4343 7154</li>
                         <li>+2547 1918 4534</li>
                         <li>greencore@gmail.com</li>
                     </ul>
+                    <div className="socials">
+                        <FaInstagram className='icons' />
+                        <FiTwitter className='icons' />
+                        <FiLinkedin className='icons' />
+                    </div>
                 </div>
-                <div className='footersub'>
-                    <h2>YOUR FEEDBACK</h2>
+                <div className='footerSub'>
+                    <h4>YOUR FEEDBACK</h4>
                     <form id='feedbackform'>
                         <input type='text' placeholder='Email'/>
                     </form>
-                    <textarea rows={4} cols={30} form='feedbackform' placeholder='Message'></textarea><br></br>
-                    <button className='feedbutton'>SEND</button>
+                    <textarea rows={3}  form='feedbackform' placeholder='Message'></textarea><br></br>
+                    <button className='feedButton'>SEND</button>
 
                 </div>
             </div>
-            <div className='socials'>
-                <p>Reach out to us and follow us on our socials to stay updated</p>
-                <ul>
-                    <li><a href='#'><img width={40} src={facebook} alt='Facebook'/></a></li>
-                    <li><a href='#'><img width={40} src={twitter} alt='Twitter'/></a></li>
-                    <li><a href='#'><img width={40} src={instagram} alt='Instagram'/></a></li>
-                    <li><a href='#'><img width={40} src={whatsapp} alt='WhatsApp'/></a></li>
-                    <li><a href='#'><img width={40} src={gmail} alt='Gmail'/></a></li>
-                </ul>
-            </div>
-            <h3 className='copyrighttext'>Copywrite© 2022 Greencore</h3>
+
+            <p className='copyrightText'>Copyright © 2022 Greencore</p>
         </div>
         
-    </>
+    </footer>
   )
 }
 
