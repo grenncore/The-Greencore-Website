@@ -1,4 +1,5 @@
-import React from 'react';
+import { React, useEffect } from 'react';
+import { useLocation, Link } from 'react-router-dom';
 import Menu from './Menu';
 import Footer from './Footer';
 import logo from './assets/images/logo2.png';
@@ -10,12 +11,29 @@ import greenhouse from './assets/images/img1.jpg';
 import leafy from './assets/images/leafy.png';
 
 const Projects = () => {
+
+    
+    const location = useLocation()
+
+    useEffect(()=> {
+        if (location.hash) {
+            let elem = document.getElementById(location.hash.slice(1))
+            if (elem) {
+                elem.scrollIntoView({behavior: "smooth"})
+            }
+        } else {
+        window.scrollTo({top:0,left:0, behavior: "smooth"})
+        }
+    }, [location,])
+
   return (
     <section className='projects'>
         <div className="landingProjects">
             <div className="myNav">
                 <div className="myLogo">
-                    <img id='myLogo' src={logo} alt="logo" />
+                    <Link to="/">
+                        <img id='myLogo' src={logo} alt="logo" />
+                    </Link>
                 </div>
                 <Menu />
             </div>
@@ -25,7 +43,7 @@ const Projects = () => {
                 <img src={session} alt="" />
             </div>
 
-            <div className="project1">
+            <div className="project1" id='mhep'>
                 <div className="left">
                     <img src={river} alt="" />
                 </div>
@@ -86,7 +104,7 @@ const Projects = () => {
             <div className="container">
                 <div className="left">
                     <h2>More <br /> <span>Green</span> Ideas.</h2>
-                    <p>05. Free Energy Pumps.</p>
+                    <p id='pump'>05. Free Energy Pumps.</p>
                     <p>06. Geothermal Drier.</p>
                     <p>07. Animal Disease Surveillance.</p>
                     <p>08. Geothermal Incubator.</p>

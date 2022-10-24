@@ -25,15 +25,15 @@ function Footer() {
                         </li>
 
                         <li>
-                            <Link to="/Teams">Our Teams</Link>
+                            <Link to="/Dev">Our Teams</Link>
                         </li>
 
                         <li>
-                            <Link to="/Blog">Our Blogs</Link>
+                            <Link to="/Dev">Our Blogs</Link>
                         </li>
 
                         <li>
-                            <Link to="#contact">Contact Us</Link>
+                            <Link to="/Contact">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

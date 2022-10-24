@@ -1,4 +1,5 @@
-import React from 'react';
+import { React, useEffect } from 'react';
+import { useLocation, Link } from "react-router-dom";
 import Menu from './Menu';
 import Footer from './Footer';
 import logo from './assets/images/logo.png'
@@ -9,12 +10,27 @@ import fieldStudy from './assets/images/river.jpg'
 
 
 const About = () => {
+    const location = useLocation()
+
+    useEffect(()=> {
+        if (location.hash) {
+            let elem = document.getElementById(location.hash.slice(1))
+            if (elem) {
+                elem.scrollIntoView({behavior: "smooth"})
+            }
+        } else {
+        window.scrollTo({top:0,left:0, behavior: "smooth"})
+        }
+    }, [location,])
+
   return (
     <section className='about'>
         <section className="landing">
             <div className="myNav">
                 <div className="myLogo">
-                    <img id='myLogo' src={logo} alt="logo" />
+                    <Link to="/">
+                        <img id='myLogo' src={logo} alt="logo" />
+                    </Link>
                 </div>
                 <Menu />
             </div>

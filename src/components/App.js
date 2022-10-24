@@ -5,6 +5,9 @@ import Blog from "./Blog";
 import Teams from "./Teams";
 import About from "./About";
 import Projects from "./Projects";
+import Contact from "./Contact";
+import E404 from "./E404";
+import Dev from "./Dev";
 
 function App() {
   return (
@@ -15,18 +18,12 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="teams" element={<Teams />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<E404 />} />
+          <Route path="dev" element={<Dev />} />
       </Routes>
     </BrowserRouter>
-    // <>
-    //   {/* 
-    //   <Home />
-    //   <About />
-    //   <Blog />
-    //   <Teams />
-    //   <Projects />
-    //   */}
-    //   <Home />
-    // </>
+
   );
 }
 export default App;

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import { React, useEffect } from 'react';
+import { Link, useLocation } from "react-router-dom";
 import Menu from './Menu';
 import Footer from './Footer';
 import windmill from './assets/images/modern-wind-farm-line-a-rolling-hillside.jpg'
@@ -23,6 +23,18 @@ import { FiArrowRight } from 'react-icons/fi';
 
 
 const Home = () => {
+    const location = useLocation()
+
+    useEffect(()=> {
+        if (location.hash) {
+            let elem = document.getElementById(location.hash.slice(1))
+            if (elem) {
+                elem.scrollIntoView({behavior: "smooth"})
+            }
+        } else {
+        window.scrollTo({top:0,left:0, behavior: "smooth"})
+        }
+    }, [location,])
 
 
 
@@ -32,7 +44,9 @@ const Home = () => {
         <section className="landing">
             <div className="myNav">
                 <div className="myLogo">
-                    <img id='myLogo' src={logo} alt="logo" />
+                    <Link to="/">
+                        <img id='myLogo' src={logo} alt="logo" />
+                    </Link>
                 </div>
                 <Menu />
             </div>
@@ -83,19 +97,19 @@ const Home = () => {
 
                     <div className="box" id='box1'>
                         <img src={image1} alt="" />
-                        <Link onClick={(e) => {e.preventDefault(); window.location.replace('/Projects/#aqua');}}>Aquaponics System <FiArrowRight className='icon'/></Link>
+                        <Link to="/Projects/#aqua">Aquaponics System <FiArrowRight className='icon'/></Link>
                     </div>
                     <Link to="/Projects" id="toProjects">ALL PROJECTS <FiArrowRight className='icon'/></Link>
                 </div>
                 <div className="right">
                 <div className="box" id='box2'>
                         <img src={image2} alt="" />
-                        <Link to="/Projects">Mini Hydro Electric Power <FiArrowRight className='icon'/></Link>
+                        <Link to="/Projects/#mhep">Mini Hydro Electric Power <FiArrowRight className='icon'/></Link>
                     </div>
 
                     <div className="box" id='box3'>
                         <img src={image3} alt="" />
-                        <Link to="/Projects">Free Energy Pump <FiArrowRight className='icon'/></Link>
+                        <Link to="/Projects/#pump">Free Energy Pump <FiArrowRight className='icon'/></Link>
                     </div>
                 </div>
             </div>
@@ -122,7 +136,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                <Link to="/" id='toTeams'>OUR TEAMS <FiArrowRight className='icon'/></Link>
+                <Link to="/Dev" id='toTeams'>OUR TEAMS <FiArrowRight className='icon'/></Link>
             </div>
         </section>
 

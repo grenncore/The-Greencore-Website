@@ -1,0 +1,64 @@
+.e404, .dev{
+    width: 100vw;
+    min-height: 750px;
+    background: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    .myNav{
+
+        .myLogo{
+           
+
+            #myLogo{
+                height: 20px;
+                margin: 3.5rem 0 0 5.5rem;
+            }
+        }
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        font-family: $mont;
+        
+        h3{
+            text-align: center;
+            color: $textColor2;
+            font-size: 2rem;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .e404, .dev{
+    
+    
+        .myNav{
+    
+            .myLogo{
+                
+
+                #myLogo{
+                    height: 20px;
+                    margin: 3.5rem 0 0 2rem;
+                }
+            }
+        }
+    
+        .container{
+            padding: 0 2rem;
+            
+            h3{
+                color: $textColor2;
+                font-size: 1rem;
+            }
+        }
+    
+    }
+}

@@ -653,5 +653,69 @@
     
     }
 
+    .contactPage{
+        .landing{
+    
+            .myNav{
+    
+                .myLogo{
+                    
+    
+                    #myLogo{
+                        height: 20px;
+                        margin: 3.5rem 0 0 2rem;
+                    }
+                }
+            }
+    
+            .container{
+                width: 80vw;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 8rem;
+                gap: 1.6rem;
+    
+                h2{
+                    font-family: $poppins;
+                    font-size: 2rem;
+                    color: $textColor2;
+                    font-weight: 500;
+                }
+    
+                input, textarea{
+                    display: block;
+                    width: 100%;
+                    background: none;
+                    outline: none;
+                    border: 1px solid $textColor2;
+                    margin-bottom: 2rem;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    padding: .5rem;
+                    padding-left: 1.2rem;
+                    font-family: $mont;
+                    border-radius: 8px;
+                    color: $textColor2;
+    
+                    &::placeholder{
+                        color: rgba($color: $textColor2, $alpha: .6);
+                    }
+                }
+    
+                button{
+                    padding: .6rem 2rem;
+                    font-size: 1rem;
+                    background: $textColor2;
+                    color: $primary;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+
+
+
 
 }

@@ -700,6 +700,7 @@ footer {
   background: #003D2B;
   color: #ECFFFD;
   padding: 3rem 0;
+  margin-top: -0.5rem;
 }
 footer .footerContainer {
   width: 85vw;
@@ -970,6 +971,59 @@ footer .footerContainer .copyrightText {
 }
 .projects .moreIdeas .container .right img {
   width: 370px;
+}
+
+.contactPage .landing {
+  width: 100vw;
+  min-height: 750px;
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contactPage .landing .myNav .myLogo #myLogo {
+  height: 20px;
+  margin: 3.5rem 0 0 5.5rem;
+}
+.contactPage .landing .container {
+  width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  gap: 2.3rem;
+}
+.contactPage .landing .container h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.052rem;
+  color: #ECFFFD;
+  font-weight: 500;
+}
+.contactPage .landing .container input, .contactPage .landing .container textarea {
+  display: block;
+  width: 120%;
+  background: none;
+  outline: none;
+  border: 1px solid #ECFFFD;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.5rem;
+  padding-left: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  color: #ECFFFD;
+}
+.contactPage .landing .container input::placeholder, .contactPage .landing .container textarea::placeholder {
+  color: rgba(236, 255, 253, 0.6);
+}
+.contactPage .landing .container button {
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  background: #ECFFFD;
+  color: #003D2B;
+  letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -1432,6 +1486,50 @@ footer .footerContainer .copyrightText {
   }
   .projects .moreIdeas .container .right img {
     width: 130px;
+  }
+  .contactPage .landing .myNav .myLogo #myLogo {
+    height: 20px;
+    margin: 3.5rem 0 0 2rem;
+  }
+  .contactPage .landing .container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 1.6rem;
+  }
+  .contactPage .landing .container h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    color: #ECFFFD;
+    font-weight: 500;
+  }
+  .contactPage .landing .container input, .contactPage .landing .container textarea {
+    display: block;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: 1px solid #ECFFFD;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.5rem;
+    padding-left: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 8px;
+    color: #ECFFFD;
+  }
+  .contactPage .landing .container input::placeholder, .contactPage .landing .container textarea::placeholder {
+    color: rgba(236, 255, 253, 0.6);
+  }
+  .contactPage .landing .container button {
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    background: #ECFFFD;
+    color: #003D2B;
+    letter-spacing: 1px;
   }
 }
 @media only screen and (min-width: 701px) and (max-width: 1000px) {
@@ -2244,5 +2342,43 @@ footer .footerContainer .copyrightText {
 @media only screen and (min-device-width: 1401px) and (max-device-width: 1500px) {
   .homePage .partners .innerSection .right {
     margin-left: 12rem;
+  }
+}
+.e404, .dev {
+  width: 100vw;
+  min-height: 750px;
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.e404 .myNav .myLogo #myLogo, .dev .myNav .myLogo #myLogo {
+  height: 20px;
+  margin: 3.5rem 0 0 5.5rem;
+}
+.e404 .container, .dev .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-family: "Montserrat", sans-serif;
+}
+.e404 .container h3, .dev .container h3 {
+  text-align: center;
+  color: #ECFFFD;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .e404 .myNav .myLogo #myLogo, .dev .myNav .myLogo #myLogo {
+    height: 20px;
+    margin: 3.5rem 0 0 2rem;
+  }
+  .e404 .container, .dev .container {
+    padding: 0 2rem;
+  }
+  .e404 .container h3, .dev .container h3 {
+    color: #ECFFFD;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=styles.css.map */
