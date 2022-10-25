@@ -12,7 +12,7 @@ html, body {
 
 .homePage .landing {
   width: 100vw;
-  min-height: 900px;
+  min-height: 1000px;
   background: url(../images/bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -32,19 +32,19 @@ html, body {
   height: 100%;
 }
 .homePage .landing .container .leftDiv h1 {
-  font-size: 7.406rem;
+  font-size: 9.313rem;
   font-family: "Poppins", sans-serif;
-  margin: 6rem 0 0 0;
+  margin: 10rem 0 0 0;
 }
 .homePage .landing .container .leftDiv .textDiv {
-  margin-top: 40px;
+  margin-top: 4rem;
   width: 60%;
   border-left: 4px solid #93BA08;
   padding: 2rem;
 }
 .homePage .landing .container .leftDiv .textDiv p {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 .homePage .landing .container .rightDiv {
@@ -53,14 +53,14 @@ html, body {
 }
 .homePage .landing .container .rightDiv img {
   height: 369px;
-  margin-left: -2rem;
-  margin-top: 20rem;
+  margin-left: -1rem;
+  margin-top: 28rem;
   display: block;
 }
 .homePage .landing .container .rightDiv .socials {
   display: flex;
   flex-direction: column;
-  margin: 37rem 0 0 4rem;
+  margin: 45rem 0 0 4rem;
 }
 .homePage .landing .container .rightDiv .socials .icons {
   display: block;
@@ -75,32 +75,32 @@ html, body {
   background: rgba(147, 186, 8, 0.27);
 }
 .homePage .intro .innerSection {
+  padding-bottom: 7rem;
   color: #16211E;
   width: 70%;
   margin: 0 auto;
   padding-top: 8rem;
-  padding-bottom: 4rem;
 }
 .homePage .intro .innerSection p {
   font-family: "Poppins", sans-serif;
-  font-size: 44px;
+  font-size: 48px;
   font-weight: 500;
 }
 .homePage .intro .innerSection p span {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   margin-right: 1.5rem;
 }
 .homePage .intro .innerSection img {
   height: 250px;
-  margin-left: 28rem;
-  margin-top: -4rem;
+  margin-left: 48rem;
+  margin-top: -2.5rem;
 }
 .homePage .innovations {
   width: 100vw;
   background: rgba(226, 236, 188, 0.11);
-  padding-top: 9rem;
+  padding-top: 12rem;
 }
 .homePage .innovations .innerSection2 {
   width: 80%;
@@ -108,38 +108,38 @@ html, body {
   display: flex;
 }
 .homePage .innovations .innerSection2 .left img {
-  width: 380px;
-  height: 590px;
+  width: 490px;
+  height: 735px;
 }
 .homePage .innovations .innerSection2 .right {
-  margin-left: 6.5rem;
+  margin-left: 8rem;
 }
 .homePage .innovations .innerSection2 .right P {
   padding: 1rem 5rem 0 0;
   margin-bottom: 6.5rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   color: #16211E;
 }
 .homePage .innovations .innerSection2 .right P span {
-  font-size: 35px;
+  font-size: 48.8px;
   color: #003D2B;
   font-weight: 500;
   margin-right: 0.6rem;
 }
 .homePage .innovations .innerSection2 .right img {
-  height: 550px;
-  width: 430px;
+  height: 709px;
+  width: 532px;
 }
 .homePage .projectsSection {
-  margin-top: -7.5rem;
+  margin-top: -9rem;
   width: 100vw;
-  min-height: 1650px;
+  min-height: 2000px;
   background: url(../images/bg2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 15rem;
+  padding-top: 18rem;
 }
 .homePage .projectsSection .innerSection3 {
   width: 80%;
@@ -148,15 +148,15 @@ html, body {
   color: #ECFFFD;
 }
 .homePage .projectsSection .innerSection3 .box {
-  margin-top: 16rem;
+  margin-top: 19rem;
 }
 .homePage .projectsSection .innerSection3 .box img {
-  height: 200px;
-  width: 300px;
+  height: 254px;
+  width: 381px;
   display: block;
 }
 .homePage .projectsSection .innerSection3 .box a {
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Montserrat", sans-serif;
   color: #ECFFFD;
   text-decoration: none;
@@ -172,13 +172,13 @@ html, body {
   transform: scale(0.94);
 }
 .homePage .projectsSection .innerSection3 .left #box1 {
-  padding-top: 8rem;
+  padding-top: 10rem;
   margin-left: 10rem;
 }
 .homePage .projectsSection .innerSection3 .left p {
   font-family: "Poppins", sans-serif;
-  font-size: 60px;
-  line-height: 65px;
+  font-size: 76px;
+  line-height: 80px;
   font-weight: 500;
 }
 .homePage .projectsSection .innerSection3 .left #toProjects {
@@ -190,8 +190,9 @@ html, body {
   font-weight: 600;
   background: #ECFFFD;
   transition: 0.5s;
-  margin-top: 25rem;
+  margin-top: 30rem;
   margin-left: 10rem;
+  font-size: 25px;
 }
 .homePage .projectsSection .innerSection3 .left #toProjects .icon {
   margin-bottom: -0.1rem;
@@ -203,12 +204,12 @@ html, body {
   margin-left: 10rem;
 }
 .homePage .projectsSection .innerSection3 .right #box3 {
-  padding-top: 8rem;
+  padding-top: 10rem;
 }
 .homePage .categories {
   padding-top: 10rem;
   background: #FCFDF8;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
 }
 .homePage .categories .innerSection {
   width: 75%;
@@ -217,14 +218,14 @@ html, body {
 .homePage .categories .innerSection h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 61.04px;
   color: #D3817A;
 }
 .homePage .categories .innerSection h3 span {
   color: #003D2B;
 }
 .homePage .categories .innerSection #lowerH3 {
-  margin-left: 7.6rem;
+  margin-left: 9.5rem;
 }
 .homePage .categories .innerSection #toTeams {
   position: relative;
@@ -236,8 +237,9 @@ html, body {
   font-weight: 500;
   background: #D3817A;
   transition: 0.5s;
-  left: 42.5%;
-  margin-top: 5rem;
+  left: 34%;
+  margin-top: 6rem;
+  font-size: 25px;
 }
 .homePage .categories .innerSection #toTeams .icon {
   margin-bottom: -0.1rem;
@@ -246,28 +248,28 @@ html, body {
   transform: scale(1.1);
 }
 .homePage .categories .innerSection .container {
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: flex;
 }
 .homePage .categories .innerSection .container .left img {
-  height: 500px;
+  height: 545px;
 }
 .homePage .categories .innerSection .container .right {
-  border-left: 4px solid #D3817A;
+  border-left: 5px solid #D3817A;
   margin-left: 5rem;
-  padding: 1.7rem;
+  padding: 1.5rem;
 }
 .homePage .categories .innerSection .container .right p {
   font-family: "Montserrat", sans-serif;
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 500;
   color: #003D2B;
-  line-height: 3.5rem;
+  line-height: 4rem;
 }
 .homePage .partners {
   background: #E2ECBC;
   padding-top: 8rem;
-  min-height: 600px;
+  min-height: 700px;
 }
 .homePage .partners .innerSection {
   width: 75%;
@@ -280,15 +282,15 @@ html, body {
 .homePage .partners .innerSection .left h3 {
   position: relative;
   font-family: "Poppins", sans-serif;
-  font-size: 60px;
+  font-size: 76px;
   font-weight: 500;
   color: #003D2B;
-  line-height: 4.4rem;
+  line-height: 5rem;
   z-index: 1;
 }
 .homePage .partners .innerSection .left img {
   position: absolute;
-  height: 360px;
+  height: 457px;
   transform: rotate(-29.01deg);
   top: 0.8rem;
   left: -1.2rem;
@@ -306,19 +308,19 @@ html, body {
 .homePage .partners .innerSection .right #coelib {
   position: relative;
   top: 1.5rem;
-  height: 63px;
+  height: 74px;
 }
 .homePage .partners .innerSection .right #egerton {
-  height: 115px;
+  height: 154px;
   padding-left: 4rem;
 }
 .homePage .partners .innerSection .right #eutec {
-  height: 115px;
+  height: 141px;
 }
 .homePage .partners .innerSection .right #mastrich {
   position: relative;
   top: 2rem;
-  height: 60px;
+  height: 70px;
   padding-left: 3rem;
 }
 
@@ -566,7 +568,7 @@ html, body {
 }
 .about .landing {
   width: 100vw;
-  min-height: 750px;
+  min-height: 950px;
   background: url(../images/bggg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -581,15 +583,15 @@ html, body {
   width: 80vw;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
-  margin-top: 7rem;
+  margin-top: 9rem;
 }
 .about .landing .textBox .myTitle {
-  font-size: 4.768rem;
+  font-size: 8rem;
   font-weight: 700;
   color: #003D2B;
 }
 .about .landing .textBox .txt {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 300;
   color: #16211E;
 }
@@ -598,23 +600,27 @@ html, body {
   width: 80vw;
   margin: 0 auto;
   display: flex;
-  margin-top: -14rem;
+  margin-top: -18.8rem;
   justify-content: space-between;
   gap: 5rem;
 }
 .about .subSection .left img {
-  height: 320px;
+  height: 365px;
 }
 .about .subSection .left p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #003D2B;
-  line-height: 1.6rem;
-  margin-top: 2.4rem;
+  line-height: 2rem;
+  margin-top: 6rem;
+  padding-right: 4rem;
+}
+.about .subSection .right {
+  margin-top: 6rem;
 }
 .about .subSection .right img {
-  height: 500px;
+  height: 606px;
 }
 .about .why {
   margin-top: 10rem;
@@ -634,7 +640,7 @@ html, body {
 .about .why .container1 .whyTxt h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 3.815rem;
+  font-size: 5.96rem;
   color: #003D2B;
 }
 .about .why .container1 .whyTxt ul {
@@ -643,12 +649,12 @@ html, body {
 .about .why .container1 .whyTxt ul li {
   color: #16211E;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.2rem;
+  font-size: 1.953rem;
+  line-height: 2.8rem;
   font-weight: 400;
 }
 .about .why .container1 .leafDiv #leaf {
-  width: 450px;
+  width: 611px;
   position: absolute;
   top: 2.5rem;
   right: 0rem;
@@ -656,14 +662,14 @@ html, body {
 .about .why .container2 {
   width: 80vw;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 .about .why .container2 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 5.96rem;
   color: #D3817A;
-  line-height: 4.5rem;
+  line-height: 6.8rem;
   letter-spacing: 1px;
   margin-bottom: 3rem;
 }
@@ -675,7 +681,7 @@ html, body {
   gap: 4rem;
 }
 .about .why .container2 .innerContainer .left img {
-  width: 370px;
+  width: 403px;
 }
 .about .why .container2 .innerContainer .right {
   width: 400px;
@@ -689,10 +695,10 @@ html, body {
   color: #16211E;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 .about .why .container2 .innerContainer .right .activity .number {
-  font-size: 4rem;
+  font-size: 4.8rem;
   margin-right: 2rem;
 }
 
@@ -781,6 +787,11 @@ footer .footerContainer .footContent .footerSub .feedButton:hover {
 footer .footerContainer .footContent .footerSub .socials .icons {
   margin: 0.5rem 1rem 0 0;
   font-size: 1.2rem;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+footer .footerContainer .footContent .footerSub .socials .icons:hover {
+  transform: scale(1.2);
 }
 footer .footerContainer .copyrightText {
   font-family: "Montserrat", sans-serif;
@@ -795,7 +806,7 @@ footer .footerContainer .copyrightText {
 }
 .projects .landingProjects {
   width: 100vw;
-  min-height: 1400px;
+  min-height: 1800px;
   background: url(../images/bg2.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -814,14 +825,14 @@ footer .footerContainer .copyrightText {
 .projects .landingProjects .container h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 4.768rem;
+  font-size: 9rem;
   color: #ECFFFD;
-  line-height: 5.5rem;
+  line-height: 9.5rem;
 }
 .projects .landingProjects .container img {
-  height: 220px;
+  height: 273px;
   position: relative;
-  left: 32rem;
+  left: 38rem;
   top: -4.5rem;
 }
 .projects .landingProjects .project1 {
@@ -829,10 +840,10 @@ footer .footerContainer .copyrightText {
   margin: 0 auto;
   display: flex;
   gap: 4.5rem;
-  margin-top: 6rem;
+  margin-top: 12rem;
 }
 .projects .landingProjects .project1 .left img {
-  height: 280px;
+  height: 339px;
 }
 .projects .landingProjects .project1 .right {
   color: #ECFFFD;
@@ -840,14 +851,14 @@ footer .footerContainer .copyrightText {
 .projects .landingProjects .project1 .right h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.953rem;
+  font-size: 2.441rem;
   margin-bottom: 0.8rem;
 }
 .projects .landingProjects .project1 .right p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
+  font-size: 1.563rem;
+  line-height: 2rem;
   padding-right: 2rem;
 }
 .projects .project2 {
@@ -855,7 +866,7 @@ footer .footerContainer .copyrightText {
   margin: 0 auto;
   display: flex;
   gap: 5rem;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 .projects .project2 .left {
   color: #16211E;
@@ -863,21 +874,21 @@ footer .footerContainer .copyrightText {
 .projects .project2 .left h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.953rem;
+  font-size: 2.441rem;
   margin-bottom: 0.8rem;
 }
 .projects .project2 .left p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.7rem;
+  font-size: 1.563rem;
+  line-height: 2rem;
   padding-right: 2rem;
 }
 .projects .project2 .right {
-  margin-top: -12.8rem;
+  margin-top: -15rem;
 }
 .projects .project2 .right img {
-  width: 410px;
+  width: 494px;
 }
 .projects .project3 {
   width: 80vw;
@@ -887,7 +898,7 @@ footer .footerContainer .copyrightText {
   margin-top: 12rem;
 }
 .projects .project3 .left img {
-  height: 280px;
+  height: 354px;
 }
 .projects .project3 .right {
   color: #16211E;
@@ -895,15 +906,15 @@ footer .footerContainer .copyrightText {
 .projects .project3 .right h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.953rem;
+  font-size: 2.441rem;
   margin-bottom: 0.8rem;
 }
 .projects .project3 .right p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.7rem;
-  padding-right: 0rem;
+  font-size: 1.563rem;
+  line-height: 2rem;
+  padding-right: 2rem;
 }
 .projects .project4 {
   width: 80vw;
@@ -919,26 +930,26 @@ footer .footerContainer .copyrightText {
 .projects .project4 .left h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.953rem;
+  font-size: 2.441rem;
   margin-bottom: 0.8rem;
 }
 .projects .project4 .left p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.7rem;
+  font-size: 1.563rem;
+  line-height: 2rem;
   padding-right: 2rem;
 }
 .projects .project4 .right {
   padding-top: 1rem;
 }
 .projects .project4 .right img {
-  width: 450px;
+  width: 555px;
 }
 .projects .moreIdeas {
   background: #E2ECBC;
   position: relative;
-  min-height: 750px;
+  min-height: 850px;
   padding-top: 8rem;
 }
 .projects .moreIdeas .container {
@@ -948,10 +959,10 @@ footer .footerContainer .copyrightText {
 }
 .projects .moreIdeas .container .left h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   color: #D3817A;
-  line-height: 4rem;
+  line-height: 5.7rem;
   margin-bottom: 2rem;
 }
 .projects .moreIdeas .container .left h2 span {
@@ -959,7 +970,7 @@ footer .footerContainer .copyrightText {
 }
 .projects .moreIdeas .container .left p {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.441rem;
+  font-size: 3rem;
   font-weight: 500;
   color: #064B27;
   margin-bottom: 1rem;
@@ -970,7 +981,7 @@ footer .footerContainer .copyrightText {
   top: -1rem;
 }
 .projects .moreIdeas .container .right img {
-  width: 370px;
+  width: 449px;
 }
 
 .contactPage .landing {
@@ -1024,6 +1035,13 @@ footer .footerContainer .copyrightText {
   background: #ECFFFD;
   color: #003D2B;
   letter-spacing: 1px;
+  outline: none;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.contactPage .landing .container button:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 700px) {
@@ -1571,6 +1589,7 @@ footer .footerContainer .copyrightText {
   .homePage .intro .innerSection {
     width: 80vw;
     padding-top: 5rem;
+    padding-bottom: 4rem;
   }
   .homePage .intro .innerSection p {
     font-size: 25px;
@@ -1581,6 +1600,7 @@ footer .footerContainer .copyrightText {
   .homePage .intro .innerSection img {
     height: 130px;
     margin-top: -2rem;
+    margin-left: 26rem;
   }
   .homePage .innovations {
     padding-top: 6rem;
@@ -1638,6 +1658,7 @@ footer .footerContainer .copyrightText {
     line-height: 45px;
   }
   .homePage .projectsSection .innerSection3 .left #toProjects {
+    font-size: 1rem;
     margin-top: 20rem;
     margin-left: 4rem;
   }
@@ -1661,7 +1682,8 @@ footer .footerContainer .copyrightText {
     margin-left: 4.6rem;
   }
   .homePage .categories .innerSection #toTeams {
-    left: 30vw;
+    font-size: 1rem;
+    left: 27vw;
     margin-top: 5rem;
   }
   .homePage .categories .innerSection #toTeams:hover {
@@ -1780,6 +1802,7 @@ footer .footerContainer .copyrightText {
   .about .subSection {
     padding: 2rem 0 0 1rem;
     width: 90vw;
+    margin-top: -14rem;
   }
   .about .subSection .left img {
     height: 320px;
@@ -1793,6 +1816,7 @@ footer .footerContainer .copyrightText {
   }
   .about .why {
     margin-top: 5rem;
+    padding-bottom: 6rem;
   }
   .about .why .container1 {
     width: 90vw;
@@ -1812,6 +1836,7 @@ footer .footerContainer .copyrightText {
   }
   .about .why .container2 {
     width: 90vw;
+    margin-top: 6rem;
   }
   .about .why .container2 h2 {
     font-size: 3rem;
@@ -1949,6 +1974,181 @@ footer .footerContainer .copyrightText {
     width: 300px;
   }
 }
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1390px) {
+  .homePage .intro .innerSection {
+    width: 80vw;
+  }
+  .homePage .intro .innerSection p {
+    font-size: 38px;
+  }
+  .homePage .intro .innerSection p span {
+    font-size: 16px;
+  }
+  .homePage .intro .innerSection img {
+    height: 190px;
+    margin-top: -2rem;
+    margin-left: 48rem;
+  }
+  .homePage .innovations .innerSection2 .left img {
+    width: 460px;
+    height: 715px;
+  }
+  .homePage .innovations .innerSection2 .right {
+    margin-left: 5rem;
+  }
+  .homePage .innovations .innerSection2 .right P {
+    padding: 1rem 1rem 0 0;
+  }
+  .homePage .innovations .innerSection2 .right img {
+    height: 690px;
+    width: 512px;
+  }
+  .homePage .categories .innerSection .container .left img {
+    height: 540px;
+  }
+  .homePage .categories .innerSection .container .right p {
+    font-size: 30px;
+  }
+  .homePage .partners .innerSection .right #coelib {
+    height: 64px;
+  }
+  .homePage .partners .innerSection .right #egerton {
+    height: 144px;
+  }
+  .homePage .partners .innerSection .right #eutec {
+    height: 131px;
+  }
+  .homePage .partners .innerSection .right #mastrich {
+    height: 60px;
+  }
+  .about .subSection {
+    padding: 2rem 0 0 0rem;
+  }
+  .about .subSection .left img {
+    height: 365px;
+  }
+  .about .subSection .left p {
+    margin-top: 6rem;
+    padding-right: 2rem;
+  }
+  .projects .landingProjects {
+    width: 100vw;
+    min-height: 1650px;
+  }
+  .projects .landingProjects .container h1 {
+    font-size: 7rem;
+    line-height: 7.5rem;
+  }
+  .projects .landingProjects .container img {
+    height: 253px;
+    left: 34rem;
+  }
+  .projects .landingProjects .project1 .left img {
+    height: 320px;
+  }
+  .projects .landingProjects .project1 .right h5 {
+    font-size: 2rem;
+  }
+  .projects .landingProjects .project1 .right p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .projects .project2 .left {
+    color: #16211E;
+  }
+  .projects .project2 .left h5 {
+    font-size: 2rem;
+  }
+  .projects .project2 .left p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .projects .project2 .right {
+    margin-top: -15rem;
+  }
+  .projects .project2 .right img {
+    width: 400px;
+  }
+  .projects .project3 .left img {
+    height: 300px;
+  }
+  .projects .project3 .right h5 {
+    font-size: 2rem;
+  }
+  .projects .project3 .right p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .projects .project4 .left h5 {
+    font-size: 2rem;
+  }
+  .projects .project4 .left p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .projects .project4 .right img {
+    width: 500px;
+  }
+  .projects .moreIdeas {
+    background: #E2ECBC;
+    position: relative;
+    min-height: 850px;
+    padding-top: 8rem;
+  }
+  .projects .moreIdeas .container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+  }
+  .projects .moreIdeas .container .left h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #D3817A;
+    line-height: 5.7rem;
+    margin-bottom: 2rem;
+  }
+  .projects .moreIdeas .container .left h2 span {
+    color: #064B27;
+  }
+  .projects .moreIdeas .container .left p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #064B27;
+    margin-bottom: 1rem;
+  }
+  .projects .moreIdeas .container .right {
+    position: absolute;
+    right: 0rem;
+    top: -1rem;
+  }
+  .projects .moreIdeas .container .right img {
+    width: 449px;
+  }
+}
+@media only screen and (min-device-width: 1391px) and (max-device-width: 1450px) {
+  .homePage .intro .innerSection {
+    width: 80vw;
+  }
+  .homePage .intro .innerSection p {
+    font-size: 38px;
+  }
+  .homePage .intro .innerSection p span {
+    font-size: 16px;
+  }
+  .homePage .intro .innerSection img {
+    height: 190px;
+    margin-top: -2rem;
+    margin-left: 48rem;
+  }
+  .homePage .innovations .innerSection2 .right P {
+    padding: 1rem 0rem 0 0;
+  }
+  .projects .landingProjects .project1 {
+    margin-top: 6rem;
+  }
+}
 @media only screen and (min-device-width: 1001px) and (max-device-width: 1200px) {
   .homePage .landing {
     width: 100vw;
@@ -1988,6 +2188,7 @@ footer .footerContainer .copyrightText {
   .homePage .intro .innerSection {
     width: 80vw;
     padding-top: 5rem;
+    padding-bottom: 4rem;
   }
   .homePage .intro .innerSection p {
     font-size: 25px;
@@ -2029,7 +2230,7 @@ footer .footerContainer .copyrightText {
   .homePage .projectsSection {
     margin-top: -6rem;
     min-height: 1350px;
-    padding-top: 10rem;
+    padding-top: 12rem;
   }
   .homePage .projectsSection .innerSection3 {
     width: 90vw;
@@ -2056,6 +2257,7 @@ footer .footerContainer .copyrightText {
     line-height: 60px;
   }
   .homePage .projectsSection .innerSection3 .left #toProjects {
+    font-size: 1rem;
     margin-top: 20rem;
     margin-left: 4rem;
   }
@@ -2079,7 +2281,8 @@ footer .footerContainer .copyrightText {
     margin-left: 6rem;
   }
   .homePage .categories .innerSection #toTeams {
-    left: 20vw;
+    font-size: 1rem;
+    left: 22vw;
     margin-top: 5rem;
   }
   .homePage .categories .innerSection #toTeams:hover {
@@ -2110,6 +2313,7 @@ footer .footerContainer .copyrightText {
   }
   .homePage .partners .innerSection .left {
     position: relative;
+    padding-top: 2rem;
   }
   .homePage .partners .innerSection .left h3 {
     font-size: 40px;
@@ -2117,7 +2321,7 @@ footer .footerContainer .copyrightText {
   }
   .homePage .partners .innerSection .left img {
     height: 180px;
-    top: 0.6rem;
+    top: 2.5rem;
     left: 0.5rem;
   }
   .homePage .partners .innerSection .right {
@@ -2137,8 +2341,40 @@ footer .footerContainer .copyrightText {
   .homePage .partners .innerSection .right #mastrich {
     height: 50px;
   }
-  .about .subSection .right img {
+  .about .subSection .left p {
+    margin-top: 3rem;
+  }
+  .about .subSection .right {
     display: none;
+  }
+  .about .why {
+    margin-top: 6rem;
+  }
+  .about .why .container1 .whyTxt h2 {
+    font-size: 5rem;
+  }
+  .about .why .container1 .whyTxt ul li {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .about .why .container1 .leafDiv #leaf {
+    width: 500px;
+  }
+  .about .why .container2 {
+    margin-top: 12rem;
+  }
+  .about .why .container2 h2 {
+    font-size: 5rem;
+  }
+  .about .why .container2 .innerContainer .left img {
+    width: 380px;
+  }
+  .about .why .container2 .innerContainer .right .activity p {
+    font-size: 2rem;
+  }
+  .about .why .container2 .innerContainer .right .activity .number {
+    font-size: 4rem;
+    margin-right: 1rem;
   }
   .projects .landingProjects {
     min-height: 1300px;
@@ -2252,96 +2488,6 @@ footer .footerContainer .copyrightText {
   }
   .projects .moreIdeas .container .right img {
     width: 320px;
-  }
-}
-@media only screen and (min-device-width: 1201px) and (max-device-width: 1361px) {
-  .homePage {
-    /*
-    .landing{
-        width: 100vw;
-        min-height: 820px;
-
-        .myNav{
-
-            .myLogo{
-
-
-                #myLogo{
-                    height: 15px;
-                    margin: 3.5rem 0 0 3.5rem;
-                }
-            }
-        }
-
-
-        .container{
-            width: 85vw;
-            display: flex;
-
-            .leftDiv{
-                height: 100%;
-
-                h1{
-                    font-size: 7.5rem;
-                }
-                .textDiv{
-                    margin-top: 20px;
-                    width: 80%;
-                    border-left: 3px solid #93BA08;
-                    padding: 1rem;
-                }
-            }
-            .rightDiv{
-                margin-top: 2.5rem;
-
-                img{
-                    height: 300px;
-                    margin-left: -1rem;
-                    margin-top: 20rem;
-                }
-
-                .socials{
-                    margin: 33rem 0 0 1rem;
-                }
-            }
-        }
-    }
-    */
-  }
-  .homePage .intro .innerSection {
-    width: 80vw;
-  }
-  .homePage .intro .innerSection p {
-    font-size: 38px;
-  }
-  .homePage .intro .innerSection p span {
-    font-size: 16px;
-  }
-  .homePage .intro .innerSection img {
-    height: 190px;
-    margin-top: -2rem;
-    margin-left: 48rem;
-  }
-}
-@media only screen and (min-device-width: 1362px) and (max-device-width: 1450px) {
-  .homePage .intro .innerSection {
-    width: 80vw;
-  }
-  .homePage .intro .innerSection p {
-    font-size: 38px;
-  }
-  .homePage .intro .innerSection p span {
-    font-size: 16px;
-  }
-  .homePage .intro .innerSection img {
-    height: 190px;
-    margin-top: -2rem;
-    margin-left: 48rem;
-  }
-}
-@media only screen and (min-device-width: 1401px) and (max-device-width: 1500px) {
-  .homePage .partners .innerSection .right {
-    margin-left: 12rem;
   }
 }
 .e404, .dev {

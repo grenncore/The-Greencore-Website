@@ -3,7 +3,7 @@
 
     .landingProjects{
         width: 100vw;
-        min-height: 1400px;
+        min-height: 1800px;
         background: url(../images/bg2.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -32,15 +32,15 @@
             h1{
                 font-family: $poppins;
                 font-weight: 700;
-                font-size: 4.768rem;
+                font-size: 9rem;
                 color: $textColor2;
-                line-height: 5.5rem;
+                line-height: 9.5rem;
             }
 
             img{
-                height: 220px;
+                height: 273px;
                 position: relative;
-                left: 32rem;
+                left: 38rem;
                 top: -4.5rem;
             }
         }
@@ -50,11 +50,11 @@
             margin: 0 auto;
             display: flex;
             gap: 4.5rem;
-            margin-top: 6rem;
+            margin-top: 12rem;
 
             .left{
                 img{
-                    height: 280px;
+                    height: 339px;
                 }
             }
             .right{
@@ -63,14 +63,14 @@
                 h5{
                     font-family: $mont;
                     font-weight: 600;
-                    font-size: 1.953rem;
+                    font-size: 2.441rem;
                     margin-bottom: .8rem;
                 }
                 p{
                     font-family: $mont;
                     font-weight: 400;
-                    font-size: 1.25rem;
-                    line-height: 1.5rem;
+                    font-size: 1.563rem;
+                    line-height: 2rem;
                     padding-right: 2rem;
                 }
             }
@@ -83,7 +83,7 @@
         margin: 0 auto;
         display: flex;
         gap: 5rem;
-        margin-top: 6rem;
+        margin-top: 8rem;
 
         .left{
             color: $textColor;
@@ -91,23 +91,23 @@
             h5{
                 font-family: $mont;
                 font-weight: 600;
-                font-size: 1.953rem;
+                font-size: 2.441rem;
                 margin-bottom: .8rem;
             }
             p{
                 font-family: $mont;
                 font-weight: 400;
-                font-size: 1.25rem;
-                line-height: 1.7rem;
+                font-size: 1.563rem;
+                line-height: 2rem;
                 padding-right: 2rem;
             }
         }
 
         .right{
-            margin-top: -12.8rem;
+            margin-top: -15rem;
 
             img{
-                width: 410px;
+                width: 494px;
             }
         }
 
@@ -122,7 +122,7 @@
 
         .left{
             img{
-                height: 280px;
+                height: 354px;
             }
         }
         .right{
@@ -131,15 +131,15 @@
             h5{
                 font-family: $mont;
                 font-weight: 600;
-                font-size: 1.953rem;
+                font-size: 2.441rem;
                 margin-bottom: .8rem;
             }
             p{
                 font-family: $mont;
                 font-weight: 400;
-                font-size: 1.25rem;
-                line-height: 1.7rem;
-                padding-right: 0rem;
+                font-size: 1.563rem;
+                line-height: 2rem;
+                padding-right: 2rem;
             }
         }
     }
@@ -158,14 +158,14 @@
             h5{
                 font-family: $mont;
                 font-weight: 600;
-                font-size: 1.953rem;
+                font-size: 2.441rem;
                 margin-bottom: .8rem;
             }
             p{
                 font-family: $mont;
                 font-weight: 400;
-                font-size: 1.25rem;
-                line-height: 1.7rem;
+                font-size: 1.563rem;
+                line-height: 2rem;
                 padding-right: 2rem;
             }
         }
@@ -174,7 +174,7 @@
             padding-top: 1rem;
             
             img{
-                width: 450px;
+                width: 555px;
             }
         }
 
@@ -183,7 +183,7 @@
     .moreIdeas{
         background: #E2ECBC;
         position: relative;
-        min-height: 750px;
+        min-height: 850px;
         padding-top: 8rem;
 
         .container{
@@ -194,10 +194,10 @@
             .left{
                 h2{
                     font-family: $poppins;
-                    font-size: 4rem;
+                    font-size: 5rem;
                     font-weight: 700;
                     color: $secondary;
-                    line-height: 4rem;
+                    line-height: 5.7rem;
                     margin-bottom: 2rem;
 
                     span{
@@ -206,7 +206,7 @@
                 }
                 p{
                     font-family: $mont;
-                    font-size: 2.441rem;
+                    font-size: 3rem;
                     font-weight: 500;
                     color: $primary2;
                     margin-bottom: 1rem;
@@ -220,7 +220,7 @@
                 
 
                 img{
-                    width: 370px;
+                    width: 449px;
                 }
             }
         }

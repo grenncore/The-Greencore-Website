@@ -55,6 +55,7 @@
             .innerSection{
                 width: 80vw;
                 padding-top: 5rem;
+                padding-bottom: 4rem;
     
                 p{
                     font-size: 25px;
@@ -67,6 +68,7 @@
                 img{
                     height: 130px;
                     margin-top: -2rem;
+                    margin-left: 26rem;
                 }
             }
         }
@@ -140,6 +142,7 @@
                     }
     
                     #toProjects{
+                        font-size: 1rem;
                         margin-top: 20rem;
                         margin-left: 4rem;
                     }
@@ -176,7 +179,8 @@
     
     
                 #toTeams{
-                    left: 30vw;
+                    font-size: 1rem;
+                    left: 27vw;
                     margin-top: 5rem;
         
                     &:hover{
@@ -351,6 +355,7 @@
         .subSection{
             padding: 2rem 0 0 1rem;
             width: 90vw;
+            margin-top: -14rem;
     
             .left{
                
@@ -369,6 +374,7 @@
     
         .why{
             margin-top: 5rem;
+            padding-bottom: 6rem;
     
             .container1{
                 width: 90vw;
@@ -399,6 +405,7 @@
     
             .container2{
                 width: 90vw;
+                margin-top: 6rem;
     
                 h2{
                     font-size: 3rem;
@@ -599,6 +606,8 @@
         }
     
     }
+
+
 
 
 

@@ -61,6 +61,14 @@
                 background: $textColor2;
                 color: $primary;
                 letter-spacing: 1px;
+                outline: none;
+                border: none;
+                transition: .5s ease;
+                cursor: pointer;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
     }

@@ -3,7 +3,7 @@
 
     .landing{
         width: 100vw;
-        min-height: 750px;
+        min-height: 950px;
         background: url(../images/bggg.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -26,16 +26,16 @@
             width: 80vw;
             margin: 0 auto;
             font-family: $poppins;
-            margin-top: 7rem;
+            margin-top: 9rem;
 
             .myTitle{
-                font-size: 4.768rem;
+                font-size: 8rem;
                 font-weight: 700;
                 color: $primary;
             }
 
             .txt{
-                font-size: 1.4rem;
+                font-size: 1.6rem;
                 font-weight: 300;
                 color: $textColor;
             }
@@ -49,29 +49,30 @@
         width: 80vw;
         margin: 0 auto;
         display: flex;
-        margin-top: -14rem;
+        margin-top: -18.8rem;
         justify-content: space-between;
         gap: 5rem;
 
         .left{
            
             img{
-                height: 320px;
+                height: 365px;
             }
             p{
                 font-family: $mont;
-                font-size: 1.3rem;
+                font-size: 1.6rem;
                 font-weight: 400;
                 color: $primary;
-                line-height: 1.6rem;
-                margin-top: 2.4rem;
+                line-height: 2rem;
+                margin-top: 6rem;
                 //width: 76%;
+                padding-right: 4rem;
             }
         }
         .right{
-
+            margin-top: 6rem;
             img{
-                height: 500px;
+                height: 606px;
             }
         }
     }
@@ -94,7 +95,7 @@
                 h2{
                     font-family: $poppins;
                     font-weight: 700;
-                    font-size: 3.815rem;
+                    font-size: 5.96rem;
                     color: $primary;
                 }
     
@@ -104,8 +105,8 @@
                     li{
                         color: $textColor;
                         font-family: $mont;
-                        font-size: 1.5rem;
-                        line-height: 2.2rem;
+                        font-size: 1.953rem;
+                        line-height: 2.8rem;
                         font-weight: 400;
                     }
                 }
@@ -114,7 +115,7 @@
             .leafDiv{
 
                 #leaf{
-                    width: 450px;
+                    width: 611px;
                     position: absolute;
                     top: 2.5rem;
                     right: 0rem;
@@ -125,14 +126,14 @@
         .container2{
             width: 80vw;
             margin: 0 auto;
-            margin-top: 10rem;
+            margin-top: 12rem;
 
             h2{
                 font-family: $poppins;
                 font-weight: 700;
-                font-size: 4rem;
+                font-size: 5.96rem;
                 color: $secondary;
-                line-height: 4.5rem;
+                line-height: 6.8rem;
                 letter-spacing: 1px;
                 margin-bottom: 3rem;
 
@@ -147,7 +148,7 @@
 
                 .left{
                     img{
-                        width: 370px;
+                        width: 403px;
                     }
                 }
                 .right{
@@ -163,11 +164,11 @@
                             color: $textColor;
                             font-family: $mont;
                             font-weight: 500;
-                            font-size: 2rem;
+                            font-size: 2.4rem;
                         }
                         
                         .number{
-                            font-size: 4rem;
+                            font-size: 4.8rem;
                             margin-right: 2rem;
                         }
                    }

@@ -1,134 +1,318 @@
-@media only screen and (min-device-width: 1201px) and (max-device-width: 1361px) {
+
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1390px) {
     .homePage{
-        /*
-        .landing{
-            width: 100vw;
-            min-height: 820px;
+
+        .intro{
+            
+            .innerSection{
+                width: 80vw;
     
-            .myNav{
+                p{
+                    font-size: 38px;
     
-                .myLogo{
-                   
-    
-                    #myLogo{
-                        height: 15px;
-                        margin: 3.5rem 0 0 3.5rem;
+                    span{
+                        font-size: 16px;
                     }
+                }
+    
+                img{
+                    height: 190px;
+                    margin-top: -2rem;
+                    margin-left: 48rem;
                 }
             }
+        }
+
+        .innovations{
+
     
-            
-            .container{
-                width: 85vw;
-                display: flex;
-    
-                .leftDiv{
-                    height: 100%;
-        
-                    h1{
-                        font-size: 7.5rem;
-                    }
-                    .textDiv{
-                        margin-top: 20px;
-                        width: 80%;
-                        border-left: 3px solid #93BA08;
-                        padding: 1rem;
-                    }
-                }
-                .rightDiv{
-                    margin-top: 2.5rem;
-        
+            .innerSection2{
+                .left{
                     img{
-                        height: 300px;
-                        margin-left: -1rem;
-                        margin-top: 20rem;
+                        width: 460px;
+                        height: 715px;
                     }
-        
-                    .socials{
-                        margin: 33rem 0 0 1rem;
+                }
+
+                .right{
+                    margin-left: 5rem;
+    
+                    P{
+                        padding: 1rem 1rem 0 0;
+                    }
+
+                    img{
+                        height: 690px;
+                        width: 512px;
                     }
                 }
             }
         }
-        */
-    
-        .intro{
-            
+
+        .categories{
             .innerSection{
-                width: 80vw;
     
-                p{
-                    font-size: 38px;
+                .container{
+                    .left{
+                        img{
+                            height: 540px;
+                        }
+                    }
     
-                    span{
-                        font-size: 16px;
+                    .right{
+                        p{
+                            font-size: 30px;
+                        }
                     }
                 }
-    
-                img{
-                    height: 190px;
-                    margin-top: -2rem;
-                    margin-left: 48rem;
-                }
             }
+    
+    
         }
-
-
-    
-       
-
-    
-
-
-        
-    }
-}
-
-@media only screen and (min-device-width: 1362px) and (max-device-width: 1450px) {
-    .homePage{
-
-        .intro{
-            
-            .innerSection{
-                width: 80vw;
-    
-                p{
-                    font-size: 38px;
-    
-                    span{
-                        font-size: 16px;
-                    }
-                }
-    
-                img{
-                    height: 190px;
-                    margin-top: -2rem;
-                    margin-left: 48rem;
-                }
-            }
-        }
-
-   
-    }
-}
-
-@media only screen and (min-device-width: 1401px) and (max-device-width: 1500px) {
-    .homePage{
-
 
         .partners{
     
             .innerSection{
-    
-
-    
                 .right{
-                    margin-left: 12rem;
     
-
+                    #coelib{
+                        height: 64px;
+                    }
+                    #egerton{
+                        height: 144px;
+                    }
+                    #eutec{
+                        height: 131px;
+                    }
+                    #mastrich{
+                        height: 60px;
+                    }
                 }
             }
         }
+
    
     }
+
+    .about{
+        .subSection{
+            padding: 2rem 0 0 0rem;
+    
+            .left{
+               
+                img{
+                    height: 365px;
+                }
+                p{
+                    margin-top: 6rem;
+                    padding-right: 2rem;
+                }
+            }
+
+        }
+    }
+
+    .projects{
+    
+        .landingProjects{
+            width: 100vw;
+            min-height: 1650px;
+
+            .container{
+    
+                h1{
+                    font-size: 7rem;
+                    line-height: 7.5rem;
+                }
+    
+                img{
+                    height: 253px;
+                    left: 34rem;
+                }
+            }
+    
+            .project1{
+    
+                .left{
+                    img{
+                        height: 320px;
+                    }
+                }
+                .right{
+    
+                    h5{
+                        font-size: 2rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        line-height: 1.6rem;
+                    }
+                }
+            }
+    
+        }
+    
+        .project2{
+    
+            .left{
+                color: $textColor;
+    
+                h5{
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                    line-height: 1.6rem;
+                }
+            }
+    
+            .right{
+                margin-top: -15rem;
+    
+                img{
+                    width: 400px;
+                }
+            }
+    
+        }
+    
+        .project3{
+    
+            .left{
+                img{
+                    height: 300px;
+                }
+            }
+            .right{
+    
+                h5{
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                    line-height: 1.6rem;
+                }
+            }
+        }
+    
+        .project4{
+    
+            .left{
+    
+                h5{
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                    line-height: 1.6rem;
+                }
+            }
+    
+            .right{
+                
+                img{
+                    width: 500px;
+                }
+            }
+    
+        }
+    
+        .moreIdeas{
+            background: #E2ECBC;
+            position: relative;
+            min-height: 850px;
+            padding-top: 8rem;
+    
+            .container{
+                width: 80vw;
+                margin: 0 auto;
+                display: flex;
+    
+                .left{
+                    h2{
+                        font-family: $poppins;
+                        font-size: 5rem;
+                        font-weight: 700;
+                        color: $secondary;
+                        line-height: 5.7rem;
+                        margin-bottom: 2rem;
+    
+                        span{
+                            color: $primary2;
+                        }
+                    }
+                    p{
+                        font-family: $mont;
+                        font-size: 3rem;
+                        font-weight: 500;
+                        color: $primary2;
+                        margin-bottom: 1rem;
+                    }
+                }
+        
+                .right{
+                    position: absolute;
+                    right: 0rem;
+                    top: -1rem;
+                    
+    
+                    img{
+                        width: 449px;
+                    }
+                }
+            }
+        }
+    
+    }
 }
+
+
+@media only screen and (min-device-width: 1391px) and (max-device-width: 1450px) {
+    .homePage{
+
+        .intro{
+            
+            .innerSection{
+                width: 80vw;
+    
+                p{
+                    font-size: 38px;
+    
+                    span{
+                        font-size: 16px;
+                    }
+                }
+    
+                img{
+                    height: 190px;
+                    margin-top: -2rem;
+                    margin-left: 48rem;
+                }
+            }
+        }
+
+        .innovations{
+    
+            .innerSection2{
+                .right{
+    
+                    P{
+                        padding: 1rem 0rem 0 0;
+                    }
+                }
+            }
+        }
+
+   
+    }
+
+    .projects{
+        .landingProjects{
+            .project1{
+                margin-top: 6rem;
+            }
+        }
+
+    }
+}
+

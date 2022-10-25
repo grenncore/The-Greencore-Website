@@ -1,7 +1,7 @@
 .homePage{
     .landing{
         width: 100vw;
-        min-height: 900px;
+        min-height: 1000px;
         background: url(../images/bg.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -32,19 +32,19 @@
                 height: 100%;
     
                 h1{
-                    font-size: 7.406rem;
+                    font-size: 9.313rem;
                     font-family: $poppins;
-                    margin: 6rem 0 0 0;
+                    margin: 10rem 0 0 0;
                 }
                 .textDiv{
-                    margin-top: 40px;
+                    margin-top: 4rem;
                     width: 60%;
                     border-left: 4px solid #93BA08;
                     padding: 2rem;
     
                     p{
                         font-family: $mont;
-                        font-size: 16px;
+                        font-size: 20px;
                         font-weight: 400;
                     }
                 }
@@ -55,15 +55,15 @@
     
                 img{
                     height: 369px;
-                    margin-left: -2rem;
-                    margin-top: 20rem;
+                    margin-left: -1rem;
+                    margin-top: 28rem;
                     display: block;
                 }
     
                 .socials{
                     display: flex;
                     flex-direction: column;
-                    margin: 37rem 0 0 4rem;
+                    margin: 45rem 0 0 4rem;
                     .icons{
                         display: block;
                         margin: .5rem;
@@ -83,20 +83,20 @@
         background: rgba($color: #93BA08, $alpha: .27);
 
         .innerSection{
+            padding-bottom: 7rem;
             color: $textColor;
             width: 70%;
             margin: 0 auto;
             padding-top: 8rem;
-            padding-bottom: 4rem;
 
             p{
                 font-family: $poppins;
-                font-size: 44px;
+                font-size: 48px;
                 font-weight: 500;
 
                 span{
                     font-family: $mont;
-                    font-size: 16px;
+                    font-size: 20px;
                     font-weight: 500;
                     margin-right: 1.5rem;
                 }
@@ -104,8 +104,8 @@
 
             img{
                 height: 250px;
-                margin-left: 28rem;
-                margin-top: -4rem;
+                margin-left: 48rem;
+                margin-top: -2.5rem;
             }
         }
     }
@@ -114,7 +114,7 @@
         width: 100vw;
         background: rgba($color: #E2ECBC
         , $alpha: .11);
-        padding-top: 9rem;
+        padding-top: 12rem;
 
         .innerSection2{
             width: 80%;
@@ -123,22 +123,22 @@
 
             .left{
                 img{
-                    width: 380px;
-                    height: 590px;
+                    width: 490px;
+                    height: 735px;
                 }
             }
             .right{
-                margin-left: 6.5rem;
+                margin-left: 8rem;
 
                 P{
                     padding: 1rem 5rem 0 0;
                     margin-bottom: 6.5rem;
                     font-family: $mont;
-                    font-size: 20px;
+                    font-size: 25px;
                     color: $textColor;
 
                     span{
-                        font-size: 35px;
+                        font-size: 48.8px;
                         color: $primary;
                         font-weight: 500;
                         margin-right: .6rem;
@@ -146,23 +146,23 @@
                 }
 
                 img{
-                    height: 550px;
-                    width: 430px;
+                    height: 709px;
+                    width: 532px;
                 }
             }
         }
     }
 
     .projectsSection{
-        margin-top: -7.5rem;
+        margin-top: -9rem;
         width: 100vw;
-        min-height: 1650px;
+        min-height: 2000px;
         background: url(../images/bg2.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         //background-attachment: fixed;
-        padding-top: 15rem;
+        padding-top: 18rem;
 
         .innerSection3{
             width: 80%;
@@ -171,14 +171,14 @@
             color: $textColor2;
 
             .box{
-                margin-top: 16rem;
+                margin-top: 19rem;
                 img{
-                    height: 200px;
-                    width: 300px;
+                    height: 254px;
+                    width: 381px;
                     display: block;
                 }
                 a{
-                    font-size: 20px;
+                    font-size: 25px;
                     font-family: $mont;
                     color: $textColor2;
                     text-decoration: none;
@@ -201,14 +201,14 @@
 
 
                 #box1{
-                    padding-top: 8rem;
+                    padding-top: 10rem;
                     margin-left: 10rem;
                 }
 
                 p{
                     font-family: $poppins;
-                    font-size: 60px;
-                    line-height: 65px;
+                    font-size: 76px;
+                    line-height: 80px;
                     font-weight: 500;
                     
                 }
@@ -222,8 +222,9 @@
                     font-weight: 600;
                     background: $textColor2;
                     transition: .5s;
-                    margin-top: 25rem;
+                    margin-top: 30rem;
                     margin-left: 10rem;
+                    font-size: 25px;
 
                     .icon{
                         margin-bottom: -.1rem;
@@ -239,7 +240,7 @@
                 margin-left: 10rem;
 
                 #box3{
-                    padding-top: 8rem;
+                    padding-top: 10rem;
                 }
             }
 
@@ -252,7 +253,7 @@
     .categories{
         padding-top: 10rem;
         background:#FCFDF8;
-        padding-bottom: 8rem;
+        padding-bottom: 10rem;
 
         .innerSection{
             width: 75%;
@@ -261,7 +262,7 @@
             h3{
                 font-family: $poppins;
                 font-weight: 500;
-                font-size: 50px;
+                font-size: 61.04px;
                 color: $secondary;
     
                 span{
@@ -270,7 +271,7 @@
             }
 
             #lowerH3{
-                margin-left: 7.6rem;
+                margin-left: 9.5rem;
             }
 
 
@@ -284,8 +285,9 @@
                 font-weight: 500;
                 background: $secondary;
                 transition: .5s;
-                left: 42.5%;
-                margin-top: 5rem;
+                left: 34%;
+                margin-top: 6rem;
+                font-size: 25px;
     
                 .icon{
                     margin-bottom: -.1rem;
@@ -297,26 +299,26 @@
             }
 
             .container{
-                margin-top: 4rem;
+                margin-top: 5rem;
                 display: flex;
                 
                 .left{
                     img{
-                        height: 500px;
+                        height: 545px;
                     }
                 }
 
                 .right{
-                    border-left: 4px solid $secondary;
+                    border-left: 5px solid $secondary;
                     margin-left: 5rem;
-                    padding: 1.7rem;
+                    padding: 1.5rem;
 
                     p{
                         font-family: $mont;
-                        font-size: 26px;
+                        font-size: 32px;
                         font-weight: 500;
                         color: $primary;
-                        line-height: 3.5rem;
+                        line-height: 4rem;
                     }
                 }
             }
@@ -328,7 +330,7 @@
     .partners{
         background: #E2ECBC;
         padding-top: 8rem;
-        min-height: 600px;
+        min-height: 700px;
 
         .innerSection{
             width: 75%;
@@ -341,16 +343,16 @@
                 h3{
                     position: relative;
                     font-family: $poppins;
-                    font-size: 60px;
+                    font-size: 76px;
                     font-weight: 500;
                     color: $primary;
-                    line-height: 4.4rem;
+                    line-height: 5rem;
                     z-index: 1;
                 }
 
                 img{
                     position: absolute;
-                    height: 360px;
+                    height: 457px;
                     transform: rotate(-29.01deg);
                     top: .8rem;
                     left: -1.2rem;
@@ -371,19 +373,19 @@
                 #coelib{
                     position: relative;
                     top: 1.5rem;
-                    height: 63px;
+                    height: 74px;
                 }
                 #egerton{
-                    height: 115px;
+                    height: 154px;
                     padding-left: 4rem;
                 }
                 #eutec{
-                    height: 115px;
+                    height: 141px;
                 }
                 #mastrich{
                     position: relative;
                     top: 2rem;
-                    height: 60px;
+                    height: 70px;
                     padding-left: 3rem;
                 }
             }

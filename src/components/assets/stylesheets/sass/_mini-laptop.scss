@@ -55,6 +55,7 @@
             .innerSection{
                 width: 80vw;
                 padding-top: 5rem;
+                padding-bottom: 4rem;
     
                 p{
                     font-size: 25px;
@@ -109,7 +110,7 @@
         .projectsSection{
             margin-top: -6rem;
             min-height: 1350px;
-            padding-top: 10rem;
+            padding-top: 12rem;
     
             .innerSection3{
                 width: 90vw;
@@ -141,6 +142,7 @@
                     }
     
                     #toProjects{
+                        font-size: 1rem;
                         margin-top: 20rem;
                         margin-left: 4rem;
                     }
@@ -177,7 +179,8 @@
     
     
                 #toTeams{
-                    left: 20vw;
+                    font-size: 1rem;
+                    left: 22vw;
                     margin-top: 5rem;
         
                     &:hover{
@@ -220,6 +223,7 @@
     
                 .left{
                     position: relative;
+                    padding-top: 2rem;
     
                     h3{
                         font-size: 40px;
@@ -228,7 +232,7 @@
     
                     img{
                         height: 180px;
-                        top: .6rem;
+                        top: 2.5rem;
                         left: .5rem;
                     }
                 }
@@ -256,14 +260,75 @@
     }
 
 
-    .about{
-    
-        .subSection{
+    .about{ 
 
-            .right{
+        .subSection{
     
-                img{
-                    display: none;
+            .left{
+                p{
+                    margin-top: 3rem;
+                }
+            }
+            .right{
+                display: none;
+            }
+        }
+    
+        .why{
+            margin-top: 6rem;
+    
+            .container1{
+    
+                .whyTxt{
+    
+                    h2{
+                        font-size: 5rem;
+                    }
+        
+                    ul{
+                        li{
+                            font-size: 1.6rem;
+                            line-height: 2.2rem;
+                        }
+                    }
+                }
+        
+                .leafDiv{
+    
+                    #leaf{
+                        width: 500px;
+                    }
+                }
+            }
+    
+            .container2{
+                margin-top: 12rem;
+    
+                h2{
+                    font-size: 5rem;
+                }
+    
+                .innerContainer{
+                    .left{
+                        img{
+                            width: 380px;
+                        }
+                    }
+                    .right{
+                       
+    
+                       .activity{
+                        
+                            p{
+                                font-size: 2rem;
+                            }
+                            
+                            .number{
+                                font-size: 4rem;
+                                margin-right: 1rem;
+                            }
+                       }
+                    }
                 }
             }
         }
